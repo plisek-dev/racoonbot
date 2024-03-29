@@ -1,0 +1,4 @@
+source;share/racoonbot_pkg/local_setup.bash
+source;share/racoonbot_pkg/local_setup.dsv
+source;share/racoonbot_pkg/local_setup.sh
+source;share/racoonbot_pkg/local_setup.zsh

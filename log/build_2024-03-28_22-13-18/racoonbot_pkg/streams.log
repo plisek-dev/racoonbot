@@ -1,0 +1,45 @@
+[0.123s] Invoking command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg': /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2
+[0.403s] [35m[1mConsolidate compiler generated dependencies of target racoonbot_pkg[0m
+[0.500s] [ 50%] [32mBuilding CXX object CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o[0m
+[8.727s] [100%] [32m[1mLinking CXX shared library libracoonbot_pkg.so[0m
+[9.207s] [100%] Built target racoonbot_pkg
+[9.248s] Invoked command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg' returned '0': /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2
+[9.441s] Invoking command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg': /usr/bin/cmake --install /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg
+[9.467s] -- Install configuration: ""
+[9.468s] -- Execute custom install script
+[9.469s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg//racoonbot_pkg.xml
+[9.472s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/racoonbot_system.hpp
+[9.472s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/visibility_control.h
+[9.474s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/ros2_control/racoonbot.ros2_control.xacro
+[9.478s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.materials.xacro
+[9.478s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.urdf.xacro
+[9.478s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description.urdf.xacro
+[9.478s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot.rviz
+[9.478s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view.rviz
+[9.481s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/launch/racoonbot.launch.py
+[9.482s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/config/racoonbot_controllers.yaml
+[9.482s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.sh
+[9.482s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.dsv
+[9.484s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg
+[9.484s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg
+[9.486s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.sh
+[9.486s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.dsv
+[9.487s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.sh
+[9.487s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.dsv
+[9.490s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.bash
+[9.492s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.sh
+[9.492s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.zsh
+[9.493s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.dsv
+[9.494s] -- Symlinking: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/package.dsv
+[9.534s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/packages/racoonbot_pkg
+[9.534s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg
+[9.534s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[9.534s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.534s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig.cmake
+[9.535s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig-version.cmake
+[9.535s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/package.xml
+[9.540s] -- Installing: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib/libracoonbot_pkg.so
+[9.542s] -- Set runtime path of "/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib/libracoonbot_pkg.so" to ""
+[9.543s] -- Up-to-date: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake
+[9.545s] -- Up-to-date: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport-noconfig.cmake
+[9.552s] Invoked command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg' returned '0': /usr/bin/cmake --install /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg

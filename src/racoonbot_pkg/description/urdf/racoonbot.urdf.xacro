@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Basic differential drive mobile base -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="racoonbot">
+  <xacro:arg name="prefix" default="" />
+  <xacro:arg name="use_mock_hardware" default="false" />
+
+  <xacro:include filename="$(find racoonbot_pkg)/urdf/racoonbot_description.urdf.xacro" />
+
+  <!-- Import Rviz colors -->
+  <xacro:include filename="$(find racoonbot_pkg)/urdf/racoonbot.materials.xacro" />
+
+  <!-- Import racoonbot ros2_control description -->
+  <xacro:include filename="$(find racoonbot_pkg)/ros2_control/racoonbot.ros2_control.xacro" />
+
+  <xacro:racoonbot prefix="$(arg prefix)" />
+
+  <xacro:racoonbot_ros2_control
+    name="RacoonBot" prefix="$(arg prefix)" use_mock_hardware="$(arg use_mock_hardware)"/>
+
+</robot>

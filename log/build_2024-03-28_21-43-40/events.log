@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.003013] (racoonbot_pkg) JobQueued: {'identifier': 'racoonbot_pkg', 'dependencies': OrderedDict()}
+[0.003402] (racoonbot_pkg) JobStarted: {'identifier': 'racoonbot_pkg'}
+[0.092185] (-) TimerEvent: {}
+[0.194745] (-) TimerEvent: {}
+[0.300429] (-) TimerEvent: {}
+[0.386730] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'cmake'}
+[0.388884] (racoonbot_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg'], 'cwd': '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'lisior'), ('LC_TIME', 'pl_PL.UTF-8'), ('RACOON_MODEL', 'simplified'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_example_2/lib:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_component/lib'), ('HOME', '/home/lisior'), ('OLDPWD', '/home/lisior/Workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('RACOON', 'simplified'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '14211'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lisior/Workspaces/racoonbot_ws/install:/home/lisior/Workspaces/ros2_racoon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lisior'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lisior'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lisior-virtual-machine:@/tmp/.ICE-unix/1143,unix/lisior-virtual-machine:/tmp/.ICE-unix/1143'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/78d5185d_3d51_4488_9421_4f3a48173620'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ED6XK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.339'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lisior/Workspaces/racoonbot_ws/install/ros2_control_demo_description:/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg:/opt/ros/humble:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_example_2:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_description:/home/lisior/Workspaces/ros2_racoon_ws/install/racoon_ros2_pkg:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_node:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_component'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/lisior/Workspaces/ros2_racoon_ws/install/racoon_ros2_pkg/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lisior/Workspaces/racoonbot_ws/install/ros2_control_demo_description:/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg:/home/lisior/Workspaces/racoonbot_ws/install/racoon_pkg:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_example_2:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_description:/home/lisior/Workspaces/ros2_racoon_ws/install/racoon_ros2_pkg:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_node:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_component:/opt/ros/humble')]), 'shell': False}
+[0.407389] (-) TimerEvent: {}
+[0.510249] (-) TimerEvent: {}
+[0.611815] (-) TimerEvent: {}
+[0.716402] (-) TimerEvent: {}
+[0.820331] (-) TimerEvent: {}
+[0.831971] (racoonbot_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.886126] (racoonbot_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.937484] (-) TimerEvent: {}
+[1.038770] (-) TimerEvent: {}
+[1.141366] (-) TimerEvent: {}
+[1.242784] (-) TimerEvent: {}
+[1.344861] (-) TimerEvent: {}
+[1.412353] (racoonbot_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.426472] (racoonbot_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.428615] (racoonbot_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.433696] (racoonbot_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.445505] (-) TimerEvent: {}
+[1.453461] (racoonbot_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.546196] (-) TimerEvent: {}
+[1.647512] (-) TimerEvent: {}
+[1.750340] (-) TimerEvent: {}
+[1.851586] (-) TimerEvent: {}
+[1.952593] (-) TimerEvent: {}
+[2.053813] (-) TimerEvent: {}
+[2.103338] (racoonbot_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.154467] (-) TimerEvent: {}
+[2.258873] (-) TimerEvent: {}
+[2.360159] (-) TimerEvent: {}
+[2.413829] (racoonbot_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.460627] (-) TimerEvent: {}
+[2.562148] (-) TimerEvent: {}
+[2.645170] (racoonbot_pkg) StdoutLine: {'line': b'-- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[2.663149] (-) TimerEvent: {}
+[2.764382] (-) TimerEvent: {}
+[2.855809] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.865259] (-) TimerEvent: {}
+[2.884802] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.935285] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.965814] (-) TimerEvent: {}
+[3.006499] (racoonbot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.066680] (-) TimerEvent: {}
+[3.101879] (racoonbot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.167370] (-) TimerEvent: {}
+[3.268336] (-) TimerEvent: {}
+[3.369026] (-) TimerEvent: {}
+[3.470378] (-) TimerEvent: {}
+[3.571696] (-) TimerEvent: {}
+[3.673240] (-) TimerEvent: {}
+[3.774368] (-) TimerEvent: {}
+[3.875379] (-) TimerEvent: {}
+[3.976516] (-) TimerEvent: {}
+[4.077779] (-) TimerEvent: {}
+[4.178805] (-) TimerEvent: {}
+[4.279499] (-) TimerEvent: {}
+[4.380503] (-) TimerEvent: {}
+[4.481520] (-) TimerEvent: {}
+[4.582588] (-) TimerEvent: {}
+[4.683288] (-) TimerEvent: {}
+[4.814940] (-) TimerEvent: {}
+[4.916341] (-) TimerEvent: {}
+[4.938518] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.954651] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.016652] (-) TimerEvent: {}
+[5.069612] (racoonbot_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.117125] (-) TimerEvent: {}
+[5.218105] (-) TimerEvent: {}
+[5.319020] (-) TimerEvent: {}
+[5.351652] (racoonbot_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.364147] (racoonbot_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.420236] (-) TimerEvent: {}
+[5.456685] (racoonbot_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.485985] (racoonbot_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.521957] (-) TimerEvent: {}
+[5.529733] (racoonbot_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.565590] (racoonbot_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.604517] (racoonbot_pkg) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[5.622636] (-) TimerEvent: {}
+[5.723952] (-) TimerEvent: {}
+[5.825047] (-) TimerEvent: {}
+[5.926248] (-) TimerEvent: {}
+[6.027399] (-) TimerEvent: {}
+[6.112801] (racoonbot_pkg) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[6.114535] (racoonbot_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.128140] (-) TimerEvent: {}
+[6.229249] (-) TimerEvent: {}
+[6.330757] (-) TimerEvent: {}
+[6.434964] (-) TimerEvent: {}
+[6.538175] (-) TimerEvent: {}
+[6.639196] (-) TimerEvent: {}
+[6.696806] (racoonbot_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.702313] (racoonbot_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.739617] (-) TimerEvent: {}
+[6.841310] (-) TimerEvent: {}
+[6.942292] (-) TimerEvent: {}
+[7.042947] (-) TimerEvent: {}
+[7.143903] (-) TimerEvent: {}
+[7.244899] (-) TimerEvent: {}
+[7.345692] (-) TimerEvent: {}
+[7.446610] (-) TimerEvent: {}
+[7.498819] (racoonbot_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.547512] (-) TimerEvent: {}
+[7.648562] (-) TimerEvent: {}
+[7.749363] (-) TimerEvent: {}
+[7.844556] (racoonbot_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[7.849936] (-) TimerEvent: {}
+[7.855339] (racoonbot_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg\n'}
+[7.901445] (racoonbot_pkg) CommandEnded: {'returncode': 0}
+[7.902121] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'build'}
+[7.902189] (racoonbot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg', '--', '-j2', '-l2'], 'cwd': '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'lisior'), ('LC_TIME', 'pl_PL.UTF-8'), ('RACOON_MODEL', 'simplified'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_example_2/lib:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_component/lib'), ('HOME', '/home/lisior'), ('OLDPWD', '/home/lisior/Workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('RACOON', 'simplified'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '14211'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lisior/Workspaces/racoonbot_ws/install:/home/lisior/Workspaces/ros2_racoon_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lisior'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lisior'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lisior-virtual-machine:@/tmp/.ICE-unix/1143,unix/lisior-virtual-machine:/tmp/.ICE-unix/1143'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/78d5185d_3d51_4488_9421_4f3a48173620'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ED6XK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.339'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lisior/Workspaces/racoonbot_ws/install/ros2_control_demo_description:/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg:/opt/ros/humble:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_example_2:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_description:/home/lisior/Workspaces/ros2_racoon_ws/install/racoon_ros2_pkg:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_node:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_component'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/lisior/Workspaces/ros2_racoon_ws/install/racoon_ros2_pkg/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lisior/Workspaces/racoonbot_ws/install/ros2_control_demo_description:/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg:/home/lisior/Workspaces/racoonbot_ws/install/racoon_pkg:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_example_2:/home/lisior/Workspaces/ros2_racoon_ws/install/ros2_control_demo_description:/home/lisior/Workspaces/ros2_racoon_ws/install/racoon_ros2_pkg:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_node:/home/lisior/Workspaces/ros2_racoon_ws/install/ldlidar_component:/opt/ros/humble')]), 'shell': False}
+[7.950470] (-) TimerEvent: {}
+[8.051414] (-) TimerEvent: {}
+[8.154484] (-) TimerEvent: {}
+[8.255399] (-) TimerEvent: {}
+[8.264003] (racoonbot_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o\x1b[0m\n'}
+[8.356420] (-) TimerEvent: {}
+[8.458303] (-) TimerEvent: {}
+[8.559323] (-) TimerEvent: {}
+[8.660481] (-) TimerEvent: {}
+[8.764370] (-) TimerEvent: {}
+[8.868364] (-) TimerEvent: {}
+[8.970124] (-) TimerEvent: {}
+[9.071561] (-) TimerEvent: {}
+[9.172885] (-) TimerEvent: {}
+[9.274838] (-) TimerEvent: {}
+[9.376139] (-) TimerEvent: {}
+[9.477024] (-) TimerEvent: {}
+[9.578378] (-) TimerEvent: {}
+[9.680149] (-) TimerEvent: {}
+[9.781595] (-) TimerEvent: {}
+[9.883587] (-) TimerEvent: {}
+[9.984732] (-) TimerEvent: {}
+[10.085767] (-) TimerEvent: {}
+[10.187358] (-) TimerEvent: {}
+[10.288716] (-) TimerEvent: {}
+[10.390272] (-) TimerEvent: {}
+[10.492048] (-) TimerEvent: {}
+[10.593793] (-) TimerEvent: {}
+[10.697220] (-) TimerEvent: {}
+[10.798435] (-) TimerEvent: {}
+[10.901430] (-) TimerEvent: {}
+[11.003379] (-) TimerEvent: {}
+[11.106116] (-) TimerEvent: {}
+[11.207373] (-) TimerEvent: {}
+[11.308272] (-) TimerEvent: {}
+[11.410374] (-) TimerEvent: {}
+[11.511655] (-) TimerEvent: {}
+[11.613029] (-) TimerEvent: {}
+[11.714109] (-) TimerEvent: {}
+[11.814925] (-) TimerEvent: {}
+[11.915555] (-) TimerEvent: {}
+[12.016590] (-) TimerEvent: {}
+[12.117384] (-) TimerEvent: {}
+[12.218574] (-) TimerEvent: {}
+[12.320106] (-) TimerEvent: {}
+[12.421392] (-) TimerEvent: {}
+[12.522379] (-) TimerEvent: {}
+[12.623380] (-) TimerEvent: {}
+[12.724985] (-) TimerEvent: {}
+[12.825910] (-) TimerEvent: {}
+[12.927498] (-) TimerEvent: {}
+[13.028257] (-) TimerEvent: {}
+[13.129460] (-) TimerEvent: {}
+[13.230809] (-) TimerEvent: {}
+[13.331983] (-) TimerEvent: {}
+[13.432969] (-) TimerEvent: {}
+[13.533651] (-) TimerEvent: {}
+[13.634655] (-) TimerEvent: {}
+[13.735205] (-) TimerEvent: {}
+[13.836257] (-) TimerEvent: {}
+[13.937026] (-) TimerEvent: {}
+[14.037868] (-) TimerEvent: {}
+[14.138700] (-) TimerEvent: {}
+[14.239394] (-) TimerEvent: {}
+[14.340701] (-) TimerEvent: {}
+[14.441623] (-) TimerEvent: {}
+[14.542375] (-) TimerEvent: {}
+[14.643482] (-) TimerEvent: {}
+[14.647231] (racoonbot_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn racoonbot_pkg::RacoonBotSystemHardware::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.647498] (racoonbot_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:135:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KThis\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[14.647699] (racoonbot_pkg) StderrLine: {'line': b'  135 |   END: \x1b[01;31m\x1b[KThis\x1b[m\x1b[K part here is for exemplary purposes - Please do not copy to your production code\n'}
+[14.647832] (racoonbot_pkg) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[14.647952] (racoonbot_pkg) StderrLine: {'line': b'      |        \x1b[32m\x1b[Kthis\x1b[m\x1b[K\n'}
+[14.652042] (racoonbot_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:138:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[14.652262] (racoonbot_pkg) StderrLine: {'line': b'  138 |   for (auto i = 0u; \x1b[01;31m\x1b[Ki\x1b[m\x1b[K < hw_positions_.size(); i++)\n'}
+[14.652412] (racoonbot_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[14.655223] (racoonbot_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:135:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Klabel \xe2\x80\x98\x1b[01m\x1b[KEND\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label\x07-Wunused-label\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.655518] (racoonbot_pkg) StderrLine: {'line': b'  135 |   \x1b[01;35m\x1b[KEND\x1b[m\x1b[K: This part here is for exemplary purposes - Please do not copy to your production code\n'}
+[14.655655] (racoonbot_pkg) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[14.743847] (-) TimerEvent: {}
+[14.844968] (-) TimerEvent: {}
+[14.946060] (-) TimerEvent: {}
+[15.047145] (-) TimerEvent: {}
+[15.148040] (-) TimerEvent: {}
+[15.249054] (-) TimerEvent: {}
+[15.350336] (-) TimerEvent: {}
+[15.451632] (-) TimerEvent: {}
+[15.552978] (-) TimerEvent: {}
+[15.604714] (racoonbot_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/racoonbot_pkg.dir/build.make:76: CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o] Error 1\n'}
+[15.607419] (racoonbot_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/racoonbot_pkg.dir/all] Error 2\n'}
+[15.607699] (racoonbot_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.612339] (racoonbot_pkg) CommandEnded: {'returncode': 2}
+[15.653354] (-) TimerEvent: {}
+[15.754283] (-) TimerEvent: {}
+[15.855706] (-) TimerEvent: {}
+[15.956747] (-) TimerEvent: {}
+[15.964644] (racoonbot_pkg) JobEnded: {'identifier': 'racoonbot_pkg', 'rc': 2}
+[15.966235] (-) EventReactorShutdown: {}

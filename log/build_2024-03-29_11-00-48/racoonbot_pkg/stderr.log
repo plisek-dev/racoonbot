@@ -1,0 +1,8 @@
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:5 (file):
+  file failed to open for writing (Permission denied):
+
+    /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/symlink_install_manifest.txt
+Call Stack (most recent call first):
+  cmake_install.cmake:46 (include)
+
+[0m

@@ -1,0 +1,14 @@
+[01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn racoonbot_pkg::RacoonBotSystemHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:135:8:[m[K [01;31m[Kerror: [m[K‘[01m[KThis[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+  135 |   END: [01;31m[KThis[m[K part here is for exemplary purposes - Please do not copy to your production code
+      |        [01;31m[K^~~~[m[K
+      |        [32m[Kthis[m[K
+[01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:138:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  138 |   for (auto i = 0u; [01;31m[Ki[m[K < hw_positions_.size(); i++)
+      |                     [01;31m[K^[m[K
+[01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:135:3:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[KEND[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+  135 |   [01;35m[KEND[m[K: This part here is for exemplary purposes - Please do not copy to your production code
+      |   [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/racoonbot_pkg.dir/build.make:76: CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/racoonbot_pkg.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

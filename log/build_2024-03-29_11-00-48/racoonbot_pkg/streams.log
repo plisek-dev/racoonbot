@@ -1,0 +1,33 @@
+[0.028s] Invoking command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2
+[0.087s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.266s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.282s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.359s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.384s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.416s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.357s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.363s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.424s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.450s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.488s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.504s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.524s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.919s] -- Configuring done
+[2.168s] -- Generating done
+[2.172s] -- Build files have been written to: /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg
+[2.247s] [35m[1mConsolidate compiler generated dependencies of target racoonbot_pkg[0m
+[2.299s] [100%] Built target racoonbot_pkg
+[2.326s] Invoked command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2
+[2.440s] Invoking command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg
+[2.462s] -- Install configuration: ""
+[2.463s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:5 (file):
+[2.463s]   file failed to open for writing (Permission denied):
+[2.463s] 
+[2.463s]     /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/symlink_install_manifest.txt
+[2.463s] Call Stack (most recent call first):
+[2.463s]   cmake_install.cmake:46 (include)
+[2.463s] 
+[2.463s] [0m
+[2.465s] Invoked command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg

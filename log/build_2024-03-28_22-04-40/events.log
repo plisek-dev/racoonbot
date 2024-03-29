@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.004926] (racoonbot_pkg) JobQueued: {'identifier': 'racoonbot_pkg', 'dependencies': OrderedDict()}
+[0.005066] (racoonbot_pkg) JobStarted: {'identifier': 'racoonbot_pkg'}
+[0.125061] (-) TimerEvent: {}
+[0.149756] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'cmake'}
+[0.150031] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'build'}
+[0.150106] (racoonbot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg', '--', '-j2', '-l2'], 'cwd': '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US:'), ('USER', 'root'), ('LC_TIME', 'pl_PL.UTF-8'), ('SHLVL', '1'), ('HOME', '/root'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ED6XK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', './buildscript.sh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('SUDO_USER', 'lisior'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('PWD', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.226719] (-) TimerEvent: {}
+[0.330058] (-) TimerEvent: {}
+[0.431119] (-) TimerEvent: {}
+[0.533052] (-) TimerEvent: {}
+[0.536642] (racoonbot_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target racoonbot_pkg\x1b[0m\n'}
+[0.633798] (-) TimerEvent: {}
+[0.728956] (racoonbot_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o\x1b[0m\n'}
+[0.735550] (-) TimerEvent: {}
+[0.841201] (-) TimerEvent: {}
+[0.942196] (-) TimerEvent: {}
+[1.043172] (-) TimerEvent: {}
+[1.144509] (-) TimerEvent: {}
+[1.245600] (-) TimerEvent: {}
+[1.346742] (-) TimerEvent: {}
+[1.449568] (-) TimerEvent: {}
+[1.550443] (-) TimerEvent: {}
+[1.651663] (-) TimerEvent: {}
+[1.753272] (-) TimerEvent: {}
+[1.854587] (-) TimerEvent: {}
+[1.955850] (-) TimerEvent: {}
+[2.057064] (-) TimerEvent: {}
+[2.158301] (-) TimerEvent: {}
+[2.259370] (-) TimerEvent: {}
+[2.360381] (-) TimerEvent: {}
+[2.461512] (-) TimerEvent: {}
+[2.562611] (-) TimerEvent: {}
+[2.663876] (-) TimerEvent: {}
+[2.765939] (-) TimerEvent: {}
+[2.867014] (-) TimerEvent: {}
+[2.968083] (-) TimerEvent: {}
+[3.069277] (-) TimerEvent: {}
+[3.170344] (-) TimerEvent: {}
+[3.271640] (-) TimerEvent: {}
+[3.372738] (-) TimerEvent: {}
+[3.473700] (-) TimerEvent: {}
+[3.574623] (-) TimerEvent: {}
+[3.675550] (-) TimerEvent: {}
+[3.776578] (-) TimerEvent: {}
+[3.880003] (-) TimerEvent: {}
+[3.988794] (-) TimerEvent: {}
+[4.091151] (-) TimerEvent: {}
+[4.192468] (-) TimerEvent: {}
+[4.293406] (-) TimerEvent: {}
+[4.394746] (-) TimerEvent: {}
+[4.496472] (-) TimerEvent: {}
+[4.598840] (-) TimerEvent: {}
+[4.705043] (-) TimerEvent: {}
+[4.808803] (-) TimerEvent: {}
+[4.910138] (-) TimerEvent: {}
+[5.012995] (-) TimerEvent: {}
+[5.114512] (-) TimerEvent: {}
+[5.217138] (-) TimerEvent: {}
+[5.318383] (-) TimerEvent: {}
+[5.419811] (-) TimerEvent: {}
+[5.521189] (-) TimerEvent: {}
+[5.622119] (-) TimerEvent: {}
+[5.723543] (-) TimerEvent: {}
+[5.824369] (-) TimerEvent: {}
+[5.926165] (-) TimerEvent: {}
+[6.027322] (-) TimerEvent: {}
+[6.128513] (-) TimerEvent: {}
+[6.229520] (-) TimerEvent: {}
+[6.331092] (-) TimerEvent: {}
+[6.433164] (-) TimerEvent: {}
+[6.534977] (-) TimerEvent: {}
+[6.635897] (-) TimerEvent: {}
+[6.737435] (-) TimerEvent: {}
+[6.841932] (-) TimerEvent: {}
+[6.944518] (-) TimerEvent: {}
+[7.045953] (-) TimerEvent: {}
+[7.147236] (-) TimerEvent: {}
+[7.250895] (-) TimerEvent: {}
+[7.352010] (-) TimerEvent: {}
+[7.453261] (-) TimerEvent: {}
+[7.554340] (-) TimerEvent: {}
+[7.655429] (-) TimerEvent: {}
+[7.757723] (-) TimerEvent: {}
+[7.859154] (-) TimerEvent: {}
+[7.961132] (-) TimerEvent: {}
+[8.064181] (-) TimerEvent: {}
+[8.166172] (-) TimerEvent: {}
+[8.267033] (-) TimerEvent: {}
+[8.367800] (-) TimerEvent: {}
+[8.468566] (-) TimerEvent: {}
+[8.569627] (-) TimerEvent: {}
+[8.670698] (-) TimerEvent: {}
+[8.771806] (-) TimerEvent: {}
+[8.872622] (-) TimerEvent: {}
+[8.973470] (-) TimerEvent: {}
+[9.074354] (-) TimerEvent: {}
+[9.175593] (-) TimerEvent: {}
+[9.276345] (-) TimerEvent: {}
+[9.377421] (-) TimerEvent: {}
+[9.478494] (-) TimerEvent: {}
+[9.579591] (-) TimerEvent: {}
+[9.680330] (-) TimerEvent: {}
+[9.781418] (-) TimerEvent: {}
+[9.882692] (-) TimerEvent: {}
+[9.983491] (-) TimerEvent: {}
+[10.084596] (-) TimerEvent: {}
+[10.186622] (-) TimerEvent: {}
+[10.211084] (racoonbot_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libracoonbot_pkg.so\x1b[0m\n'}
+[10.287305] (-) TimerEvent: {}
+[10.389026] (-) TimerEvent: {}
+[10.489727] (-) TimerEvent: {}
+[10.591423] (-) TimerEvent: {}
+[10.692584] (-) TimerEvent: {}
+[10.758085] (racoonbot_pkg) StdoutLine: {'line': b'[100%] Built target racoonbot_pkg\n'}
+[10.794347] (-) TimerEvent: {}
+[10.795748] (racoonbot_pkg) CommandEnded: {'returncode': 0}
+[10.896029] (-) TimerEvent: {}
+[10.966549] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'install'}
+[10.993775] (racoonbot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg'], 'cwd': '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US:'), ('USER', 'root'), ('LC_TIME', 'pl_PL.UTF-8'), ('SHLVL', '1'), ('HOME', '/root'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ED6XK2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', './buildscript.sh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('SUDO_USER', 'lisior'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('PWD', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[10.996707] (-) TimerEvent: {}
+[11.031198] (racoonbot_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.036261] (racoonbot_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.037393] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg//racoonbot_pkg.xml\n'}
+[11.039818] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/racoonbot_system.hpp\n'}
+[11.041242] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/visibility_control.h\n'}
+[11.042786] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/ros2_control/racoonbot.ros2_control.xacro\n'}
+[11.044050] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.materials.xacro\n'}
+[11.045125] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.urdf.xacro\n'}
+[11.046075] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description.urdf.xacro\n'}
+[11.047273] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot.rviz\n'}
+[11.048437] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view.rviz\n'}
+[11.050863] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/launch/racoonbot.launch.py\n'}
+[11.052520] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/config/racoonbot_controllers.yaml\n'}
+[11.053323] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.sh\n'}
+[11.054065] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.dsv\n'}
+[11.054986] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg\n'}
+[11.055842] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg\n'}
+[11.057133] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.sh\n'}
+[11.057922] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.dsv\n'}
+[11.058704] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.sh\n'}
+[11.059481] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.dsv\n'}
+[11.060839] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.bash\n'}
+[11.061652] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.sh\n'}
+[11.063059] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.zsh\n'}
+[11.067948] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.dsv\n'}
+[11.069657] (racoonbot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/package.dsv\n'}
+[11.098454] (-) TimerEvent: {}
+[11.119771] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/packages/racoonbot_pkg\n'}
+[11.120360] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg\n'}
+[11.121631] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.122673] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.123713] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig.cmake\n'}
+[11.125050] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig-version.cmake\n'}
+[11.129104] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/package.xml\n'}
+[11.132952] (racoonbot_pkg) StdoutLine: {'line': b'-- Installing: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib/libracoonbot_pkg.so\n'}
+[11.152351] (racoonbot_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib/libracoonbot_pkg.so" to ""\n'}
+[11.153243] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake\n'}
+[11.153854] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport-noconfig.cmake\n'}
+[11.169343] (racoonbot_pkg) CommandEnded: {'returncode': 0}
+[11.199925] (-) TimerEvent: {}
+[11.301303] (-) TimerEvent: {}
+[11.402406] (-) TimerEvent: {}
+[11.503383] (-) TimerEvent: {}
+[11.511886] (racoonbot_pkg) JobEnded: {'identifier': 'racoonbot_pkg', 'rc': 0}
+[11.514596] (-) EventReactorShutdown: {}

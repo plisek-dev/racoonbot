@@ -1,0 +1,51 @@
+[0.395s] Invoking command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg
+[0.829s] -- The CXX compiler identification is GNU 11.4.0
+[0.883s] -- Detecting CXX compiler ABI info
+[1.409s] -- Detecting CXX compiler ABI info - done
+[1.423s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.425s] -- Detecting CXX compile features
+[1.430s] -- Detecting CXX compile features - done
+[1.450s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.100s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.411s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.642s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.853s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.882s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.932s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.003s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.935s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.951s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.066s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.348s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.361s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.454s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.483s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.526s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.563s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.601s] -- Looking for C++ include pthread.h
+[6.110s] -- Looking for C++ include pthread.h - found
+[6.111s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.699s] -- Found Threads: TRUE  
+[7.496s] -- Configuring done
+[7.841s] -- Generating done
+[7.852s] -- Build files have been written to: /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg
+[7.898s] Invoked command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg
+[7.899s] Invoking command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2
+[8.261s] [ 50%] [32mBuilding CXX object CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o[0m
+[14.644s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn racoonbot_pkg::RacoonBotSystemHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[14.644s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:135:8:[m[K [01;31m[Kerror: [m[K‘[01m[KThis[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+[14.644s]   135 |   END: [01;31m[KThis[m[K part here is for exemplary purposes - Please do not copy to your production code
+[14.644s]       |        [01;31m[K^~~~[m[K
+[14.645s]       |        [32m[Kthis[m[K
+[14.649s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:138:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[14.649s]   138 |   for (auto i = 0u; [01;31m[Ki[m[K < hw_positions_.size(); i++)
+[14.649s]       |                     [01;31m[K^[m[K
+[14.652s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:135:3:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[KEND[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+[14.652s]   135 |   [01;35m[KEND[m[K: This part here is for exemplary purposes - Please do not copy to your production code
+[14.652s]       |   [01;35m[K^~~[m[K
+[15.602s] gmake[2]: *** [CMakeFiles/racoonbot_pkg.dir/build.make:76: CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o] Error 1
+[15.604s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/racoonbot_pkg.dir/all] Error 2
+[15.604s] gmake: *** [Makefile:146: all] Error 2
+[15.609s] Invoked command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2
