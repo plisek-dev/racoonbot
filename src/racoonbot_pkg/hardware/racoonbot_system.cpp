@@ -13,6 +13,7 @@
 // limitations under the License.
 
 #include "racoonbot_pkg/racoonbot_system.hpp"
+#include "racoonbot_pkg/racoonbot_control.hpp"
 
 #include <chrono>
 #include <cmath>
@@ -37,14 +38,35 @@ hardware_interface::CallbackReturn RacoonBotSystemHardware::on_init(
     return hardware_interface::CallbackReturn::ERROR;
   }
     // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
-  hw_start_sec_ =
-    hardware_interface::stod(info_.hardware_parameters["example_param_hw_start_duration_sec"]);
-  hw_stop_sec_ =
-    hardware_interface::stod(info_.hardware_parameters["example_param_hw_stop_duration_sec"]);
+
   // END: This part here is for exemplary purposes - Please do not copy to your production code
   hw_positions_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
   hw_velocities_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
   hw_commands_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
+
+
+  cfg_.left_wheel_name = info_.hardware_parameters["left_wheel_name"];
+  cfg_.right_wheel_name = info_.hardware_parameters["right_wheel_name"];
+  cfg_.loop_rate = std::stof(info_.hardware_parameters["loop_rate"]);
+  cfg_.device = info_.hardware_parameters["device"];
+  cfg_.timeout_ms = std::stoi(info_.hardware_parameters["timeout_ms"]);
+  cfg_.enc_counts_per_rev = std::stoi(info_.hardware_parameters["enc_counts_per_rev"]);
+
+  if (info_.hardware_parameters.count("pid_p") > 0)
+  {
+    cfg_.pid_p = std::stoi(info_.hardware_parameters["pid_p"]);
+    cfg_.pid_d = std::stoi(info_.hardware_parameters["pid_d"]);
+    cfg_.pid_i = std::stoi(info_.hardware_parameters["pid_i"]);
+    cfg_.pid_o = std::stoi(info_.hardware_parameters["pid_o"]);
+  }
+  else
+  {
+    RCLCPP_INFO(rclcpp::get_logger("DiffDriveRacoonHardware"), "PID values not supplied, using defaults.");
+  }
+
+  left_wheel_.setup(cfg_.left_wheel_name, cfg_.enc_counts_per_rev);
+  right_wheel_.setup(cfg_.right_wheel_name, cfg_.enc_counts_per_rev);
+
 
   for (const hardware_interface::ComponentInfo & joint : info_.joints)
   {
@@ -130,14 +152,14 @@ hardware_interface::CallbackReturn RacoonBotSystemHardware::on_activate(
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Activating ...please wait...");
 
-  for (auto i = 0; i < hw_start_sec_; i++)
-  {
-    rclcpp::sleep_for(std::chrono::seconds(1));
-    RCLCPP_INFO(
-      rclcpp::get_logger("RacoonBotSystemHardware"), "%.1f seconds left...", hw_start_sec_ - i);
-  }
   // END: This part here is for exemplary purposes - Please do not copy to your production code
-
+  left_wheel_.cmd = 0;
+  left_wheel_.pos = 0;
+  left_wheel_.vel = 0;
+  right_wheel_.cmd = 0;
+  right_wheel_.pos = 0;
+  right_wheel_.vel = 0;
+  
   // set some default values
   for (auto i = 0u; i < hw_positions_.size(); i++)
   {
@@ -160,12 +182,6 @@ hardware_interface::CallbackReturn RacoonBotSystemHardware::on_deactivate(
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Deactivating ...please wait...");
 
-  for (auto i = 0; i < hw_stop_sec_; i++)
-  {
-    rclcpp::sleep_for(std::chrono::seconds(1));
-    RCLCPP_INFO(
-      rclcpp::get_logger("RacoonBotSystemHardware"), "%.1f seconds left...", hw_stop_sec_ - i);
-  }
   // END: This part here is for exemplary purposes - Please do not copy to your production code
 
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Successfully deactivated!");
@@ -177,18 +193,7 @@ hardware_interface::return_type RacoonBotSystemHardware::read(
   const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
 {
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
-  for (std::size_t i = 0; i < hw_velocities_.size(); i++)
-  {
-    // Simulate RacoonBot wheels's movement as a first-order system
-    // Update the joint status: this is a revolute joint without any limit.
-    // Simply integrates
-    hw_positions_[i] = hw_positions_[i] + period.seconds() * hw_velocities_[i];
 
-    RCLCPP_INFO(
-      rclcpp::get_logger("RacoonBotSystemHardware"),
-      "Got position state %.5f and velocity state %.5f for '%s'!", hw_positions_[i],
-      hw_velocities_[i], info_.joints[i].name.c_str());
-  }
   // END: This part here is for exemplary purposes - Please do not copy to your production code
 
   return hardware_interface::return_type::OK;
@@ -200,15 +205,6 @@ hardware_interface::return_type racoonbot_pkg ::RacoonBotSystemHardware::write(
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Writing...");
 
-  for (auto i = 0u; i < hw_commands_.size(); i++)
-  {
-    // Simulate sending commands to the hardware
-    RCLCPP_INFO(
-      rclcpp::get_logger("RacoonBotSystemHardware"), "Got command %.5f for '%s'!", hw_commands_[i],
-      info_.joints[i].name.c_str());
-
-    hw_velocities_[i] = hw_commands_[i];
-  }
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Joints successfully written!");
   // END: This part here is for exemplary purposes - Please do not copy to your production code
 

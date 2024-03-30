@@ -31,11 +31,28 @@
 #include "rclcpp_lifecycle/state.hpp"
 
 #include "racoonbot_pkg/visibility_control.h"
+#include "racoonbot_pkg/racoonbot_control.hpp"
+#include "racoonbot_pkg/wheel.hpp"
 
 namespace racoonbot_pkg
 {
 class RacoonBotSystemHardware : public hardware_interface::SystemInterface
 {
+
+struct Config
+{
+  std::string left_wheel_name = "";
+  std::string right_wheel_name = "";
+  float loop_rate = 0.0;
+  std::string device = "";
+  int timeout_ms = 0;
+  int enc_counts_per_rev = 0;
+  int pid_p = 0;
+  int pid_d = 0;
+  int pid_i = 0;
+  int pid_o = 0;
+};
+
 public:
   RCLCPP_SHARED_PTR_DEFINITIONS(RacoonBotSystemHardware);
 
@@ -66,14 +83,16 @@ public:
     const rclcpp::Time & time, const rclcpp::Duration & period) override;
 
 private:
-  // Parameters for the RacoonBot simulation
-  double hw_start_sec_;
-  double hw_stop_sec_;
 
-  // Store the command for the simulated robot
   std::vector<double> hw_commands_;
   std::vector<double> hw_positions_;
   std::vector<double> hw_velocities_;
+  // Parameters for the RacoonBot simulation
+  Wheel right_wheel_;
+  Wheel left_wheel_;
+  RacoonBotControl control_;
+  Config cfg_;
+
 };
 
 }  // namespace RACOONBOT_PKG

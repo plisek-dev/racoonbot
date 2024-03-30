@@ -1,0 +1,392 @@
+[0.000000] (-) TimerEvent: {}
+[0.001189] (racoonbot_pkg) JobQueued: {'identifier': 'racoonbot_pkg', 'dependencies': OrderedDict()}
+[0.001616] (racoonbot_pkg) JobStarted: {'identifier': 'racoonbot_pkg'}
+[0.022476] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'cmake'}
+[0.024866] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'build'}
+[0.032605] (racoonbot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg', '--', '-j2', '-l2'], 'cwd': '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US:'), ('USER', 'root'), ('LC_TIME', 'pl_PL.UTF-8'), ('SHLVL', '1'), ('HOME', '/root'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SWCKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', './buildscript.sh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('SUDO_USER', 'lisior'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('PWD', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.099377] (-) TimerEvent: {}
+[0.200729] (-) TimerEvent: {}
+[0.210863] (racoonbot_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target racoonbot_pkg\x1b[0m\n'}
+[0.299597] (racoonbot_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o\x1b[0m\n'}
+[0.301242] (-) TimerEvent: {}
+[0.403314] (-) TimerEvent: {}
+[0.504396] (-) TimerEvent: {}
+[0.605640] (-) TimerEvent: {}
+[0.707247] (-) TimerEvent: {}
+[0.808536] (-) TimerEvent: {}
+[0.910026] (-) TimerEvent: {}
+[1.011082] (-) TimerEvent: {}
+[1.112103] (-) TimerEvent: {}
+[1.213696] (-) TimerEvent: {}
+[1.314867] (-) TimerEvent: {}
+[1.416062] (-) TimerEvent: {}
+[1.517582] (-) TimerEvent: {}
+[1.619217] (-) TimerEvent: {}
+[1.720557] (-) TimerEvent: {}
+[1.822153] (-) TimerEvent: {}
+[1.923478] (-) TimerEvent: {}
+[2.025178] (-) TimerEvent: {}
+[2.126399] (-) TimerEvent: {}
+[2.227889] (-) TimerEvent: {}
+[2.329274] (-) TimerEvent: {}
+[2.430403] (-) TimerEvent: {}
+[2.531427] (-) TimerEvent: {}
+[2.632685] (-) TimerEvent: {}
+[2.733952] (-) TimerEvent: {}
+[2.834906] (-) TimerEvent: {}
+[2.935764] (-) TimerEvent: {}
+[3.036711] (-) TimerEvent: {}
+[3.138302] (-) TimerEvent: {}
+[3.239376] (-) TimerEvent: {}
+[3.340851] (-) TimerEvent: {}
+[3.441685] (-) TimerEvent: {}
+[3.543169] (-) TimerEvent: {}
+[3.644174] (-) TimerEvent: {}
+[3.745514] (-) TimerEvent: {}
+[3.846500] (-) TimerEvent: {}
+[3.947651] (-) TimerEvent: {}
+[4.048699] (-) TimerEvent: {}
+[4.150271] (-) TimerEvent: {}
+[4.251530] (-) TimerEvent: {}
+[4.352508] (-) TimerEvent: {}
+[4.453182] (-) TimerEvent: {}
+[4.554509] (-) TimerEvent: {}
+[4.656052] (-) TimerEvent: {}
+[4.757772] (-) TimerEvent: {}
+[4.859212] (-) TimerEvent: {}
+[4.960244] (-) TimerEvent: {}
+[5.061806] (-) TimerEvent: {}
+[5.164064] (-) TimerEvent: {}
+[5.265578] (-) TimerEvent: {}
+[5.366481] (-) TimerEvent: {}
+[5.467737] (-) TimerEvent: {}
+[5.568665] (-) TimerEvent: {}
+[5.670059] (-) TimerEvent: {}
+[5.771470] (-) TimerEvent: {}
+[5.872500] (-) TimerEvent: {}
+[5.973959] (-) TimerEvent: {}
+[6.074932] (-) TimerEvent: {}
+[6.176051] (-) TimerEvent: {}
+[6.277908] (-) TimerEvent: {}
+[6.379274] (-) TimerEvent: {}
+[6.480643] (-) TimerEvent: {}
+[6.582098] (-) TimerEvent: {}
+[6.683414] (-) TimerEvent: {}
+[6.784504] (-) TimerEvent: {}
+[6.885723] (-) TimerEvent: {}
+[6.986843] (-) TimerEvent: {}
+[7.088584] (-) TimerEvent: {}
+[7.190263] (-) TimerEvent: {}
+[7.291242] (-) TimerEvent: {}
+[7.392477] (-) TimerEvent: {}
+[7.493556] (-) TimerEvent: {}
+[7.594549] (-) TimerEvent: {}
+[7.696161] (-) TimerEvent: {}
+[7.797669] (-) TimerEvent: {}
+[7.899208] (-) TimerEvent: {}
+[8.001035] (-) TimerEvent: {}
+[8.102586] (-) TimerEvent: {}
+[8.203860] (-) TimerEvent: {}
+[8.305008] (-) TimerEvent: {}
+[8.406180] (-) TimerEvent: {}
+[8.507211] (-) TimerEvent: {}
+[8.608682] (-) TimerEvent: {}
+[8.709875] (-) TimerEvent: {}
+[8.811892] (-) TimerEvent: {}
+[8.913253] (-) TimerEvent: {}
+[8.966213] (racoonbot_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libracoonbot_pkg.so\x1b[0m\n'}
+[9.013945] (-) TimerEvent: {}
+[9.115348] (-) TimerEvent: {}
+[9.216606] (-) TimerEvent: {}
+[9.318391] (-) TimerEvent: {}
+[9.415667] (racoonbot_pkg) StdoutLine: {'line': b'[100%] Built target racoonbot_pkg\n'}
+[9.418995] (-) TimerEvent: {}
+[9.457510] (racoonbot_pkg) CommandEnded: {'returncode': 0}
+[9.520237] (-) TimerEvent: {}
+[9.563128] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'install'}
+[9.593968] (racoonbot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg'], 'cwd': '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'en_US:'), ('USER', 'root'), ('LC_TIME', 'pl_PL.UTF-8'), ('SHLVL', '1'), ('HOME', '/root'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SWCKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', './buildscript.sh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('SUDO_USER', 'lisior'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('PWD', '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[9.615190] (racoonbot_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.616812] (racoonbot_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.617881] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg//racoonbot_pkg.xml\n'}
+[9.620413] (-) TimerEvent: {}
+[9.626591] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/HEAD\n'}
+[9.627433] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/config\n'}
+[9.628520] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/description\n'}
+[9.630949] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/applypatch-msg.sample\n'}
+[9.633272] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/commit-msg.sample\n'}
+[9.635156] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/fsmonitor-watchman.sample\n'}
+[9.635823] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/post-update.sample\n'}
+[9.636729] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-applypatch.sample\n'}
+[9.637252] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-commit.sample\n'}
+[9.639461] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-merge-commit.sample\n'}
+[9.641219] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-push.sample\n'}
+[9.643386] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-rebase.sample\n'}
+[9.645671] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-receive.sample\n'}
+[9.646063] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/prepare-commit-msg.sample\n'}
+[9.647750] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/push-to-checkout.sample\n'}
+[9.647983] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/update.sample\n'}
+[9.648247] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/index\n'}
+[9.655356] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/info/exclude\n'}
+[9.656045] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/logs/HEAD\n'}
+[9.657840] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/logs/refs/heads/ubuntu\n'}
+[9.659457] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/logs/refs/remotes/origin/HEAD\n'}
+[9.662768] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/objects/pack/pack-9bc2a6d205bc49b80870ad41688d6f1822d04ed5.idx\n'}
+[9.663884] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/objects/pack/pack-9bc2a6d205bc49b80870ad41688d6f1822d04ed5.pack\n'}
+[9.664111] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/packed-refs\n'}
+[9.665853] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/refs/heads/ubuntu\n'}
+[9.666128] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/refs/remotes/origin/HEAD\n'}
+[9.670159] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.github/workflows/build.yml\n'}
+[9.670423] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.gitignore\n'}
+[9.673942] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/COPYING.LESSER\n'}
+[9.674620] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/INSTALL\n'}
+[9.676084] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/People\n'}
+[9.676478] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/README.md\n'}
+[9.680542] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/VERSION\n'}
+[9.682135] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/build\n'}
+[9.683914] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian-template/wiringPi/DEBIAN/postinst\n'}
+[9.685653] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian-template/wiringPi/DEBIAN/postrm\n'}
+[9.686145] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian-template/wiringPi/control_template\n'}
+[9.690477] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/.gitignore\n'}
+[9.692945] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/changelog\n'}
+[9.694772] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/compat\n'}
+[9.696147] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/control\n'}
+[9.698662] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/copyright\n'}
+[9.699191] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/libwiringpi-dev.dirs\n'}
+[9.702101] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/libwiringpi-dev.install\n'}
+[9.704845] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/libwiringpi2.install\n'}
+[9.707119] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/libwiringpi2.shlibs\n'}
+[9.707605] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/rules\n'}
+[9.709453] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/wiringpi.dirs\n'}
+[9.710518] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/wiringpi.install\n'}
+[9.710976] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/Makefile\n'}
+[9.715076] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/ds1302.c\n'}
+[9.715385] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/ds1302.h\n'}
+[9.715712] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/font.h\n'}
+[9.715972] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/gertboard.c\n'}
+[9.716223] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/gertboard.h\n'}
+[9.722057] (-) TimerEvent: {}
+[9.722472] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/lcd.c\n'}
+[9.722769] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/lcd.h\n'}
+[9.725076] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/lcd128x64.c\n'}
+[9.725371] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/lcd128x64.h\n'}
+[9.725597] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/maxdetect.c\n'}
+[9.728964] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/maxdetect.h\n'}
+[9.729702] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piFace.c\n'}
+[9.731772] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piFace.h\n'}
+[9.732494] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piFaceOld.c\n'}
+[9.732803] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piGlow.c\n'}
+[9.732985] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piGlow.h\n'}
+[9.733130] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piNes.c\n'}
+[9.733301] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piNes.h\n'}
+[9.733424] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/scrollPhat.c\n'}
+[9.733544] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/scrollPhat.h\n'}
+[9.736220] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/scrollPhatFont.h\n'}
+[9.736887] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/COPYING.LESSER\n'}
+[9.737057] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/7segments.c\n'}
+[9.739968] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/Makefile\n'}
+[9.744516] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/buttons.c\n'}
+[9.745146] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/gertboard.c\n'}
+[9.745321] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/record.c\n'}
+[9.745749] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/temperature.c\n'}
+[9.745927] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/voltmeter.c\n'}
+[9.746055] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/vumeter.c\n'}
+[9.746169] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Makefile\n'}
+[9.746284] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/Makefile\n'}
+[9.746395] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/blink.c\n'}
+[9.746744] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/buttons.c\n'}
+[9.747025] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/ladder.c\n'}
+[9.747214] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/metro.c\n'}
+[9.747599] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/motor.c\n'}
+[9.748296] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/reaction.c\n'}
+[9.748562] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiGlow/Makefile\n'}
+[9.749101] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiGlow/piGlow0.c\n'}
+[9.749235] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiGlow/piGlow1.c\n'}
+[9.749355] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiGlow/piglow.c\n'}
+[9.749470] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/README.TXT\n'}
+[9.749583] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink-thread.c\n'}
+[9.749696] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink.c\n'}
+[9.750003] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink.rtb\n'}
+[9.750129] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink.sh\n'}
+[9.750244] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink12.c\n'}
+[9.750358] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink12drcs.c\n'}
+[9.750473] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink6drcs.c\n'}
+[9.750614] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink8-drcn.c\n'}
+[9.750727] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink8.c\n'}
+[9.750838] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/clock.c\n'}
+[9.751101] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/delayTest.c\n'}
+[9.751221] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/ds1302.c\n'}
+[9.751334] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/header.h\n'}
+[9.751464] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/isr-osc.c\n'}
+[9.751581] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/isr.c\n'}
+[9.751692] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/lcd-adafruit.c\n'}
+[9.751802] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/lcd.c\n'}
+[9.753161] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/lowPower.c\n'}
+[9.753346] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/max31855.c\n'}
+[9.753644] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/nes.c\n'}
+[9.753770] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/okLed.c\n'}
+[9.753891] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/pwm.c\n'}
+[9.754012] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/Makefile\n'}
+[9.754130] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/binary.c\n'}
+[9.754242] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/blink-io.c\n'}
+[9.754395] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/blink.c\n'}
+[9.754509] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/blink.sh\n'}
+[9.754620] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/bright.c\n'}
+[9.754729] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/button.c\n'}
+[9.755277] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/volts.c\n'}
+[9.755769] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/rht03.c\n'}
+[9.756041] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/scrollPhat/Makefile\n'}
+[9.761827] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/scrollPhat/scphat.c\n'}
+[9.762132] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/scrollPhat/test.c\n'}
+[9.762427] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/serialRead.c\n'}
+[9.762683] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/serialTest.c\n'}
+[9.762899] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/servo.c\n'}
+[9.763149] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/softPwm.c\n'}
+[9.765603] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/softTone.c\n'}
+[9.765764] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/speed.c\n'}
+[9.765901] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/spiSpeed.c\n'}
+[9.766059] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/wfi.c\n'}
+[9.766231] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/COPYING.LESSER\n'}
+[9.766379] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/Makefile\n'}
+[9.766533] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/gpio.1\n'}
+[9.766678] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/gpio.c\n'}
+[9.766791] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/pintest\n'}
+[9.766926] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/readall.c\n'}
+[9.767084] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/test.sh\n'}
+[9.767454] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/newVersion\n'}
+[9.767687] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/pins/Makefile\n'}
+[9.767924] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/pins/pins.pdf\n'}
+[9.768119] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/pins/pins.tex\n'}
+[9.768290] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/reinstall\n'}
+[9.775541] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/version.h\n'}
+[9.775837] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/COPYING.LESSER\n'}
+[9.777044] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/Makefile\n'}
+[9.777255] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/ads1115.c\n'}
+[9.777431] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/ads1115.h\n'}
+[9.777600] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/bmp180.c\n'}
+[9.777781] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/bmp180.h\n'}
+[9.777943] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/drcNet.c\n'}
+[9.778100] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/drcNet.h\n'}
+[9.778317] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/drcSerial.c\n'}
+[9.778474] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/drcSerial.h\n'}
+[9.778650] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/ds18b20.c\n'}
+[9.781358] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/ds18b20.h\n'}
+[9.782156] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/htu21d.c\n'}
+[9.783370] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/htu21d.h\n'}
+[9.783908] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/max31855.c\n'}
+[9.784419] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/max31855.h\n'}
+[9.786156] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/max5322.c\n'}
+[9.786626] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/max5322.h\n'}
+[9.787162] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23008.c\n'}
+[9.787846] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23008.h\n'}
+[9.792873] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23016.c\n'}
+[9.797025] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23016.h\n'}
+[9.797577] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23016reg.h\n'}
+[9.798051] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23017.c\n'}
+[9.798652] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23017.h\n'}
+[9.799129] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23s08.c\n'}
+[9.799639] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23s08.h\n'}
+[9.800000] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23s17.c\n'}
+[9.800311] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23s17.h\n'}
+[9.800980] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23x08.h\n'}
+[9.801436] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23x0817.h\n'}
+[9.801986] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3002.c\n'}
+[9.803400] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3002.h\n'}
+[9.803823] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3004.c\n'}
+[9.804202] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3004.h\n'}
+[9.804498] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3422.c\n'}
+[9.805142] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3422.h\n'}
+[9.812957] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp4802.c\n'}
+[9.813707] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp4802.h\n'}
+[9.814815] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/noMoreStatic\n'}
+[9.815079] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pcf8574.c\n'}
+[9.815580] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pcf8574.h\n'}
+[9.816046] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pcf8591.c\n'}
+[9.816522] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pcf8591.h\n'}
+[9.817326] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/piHiPri.c\n'}
+[9.817798] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/piThread.c\n'}
+[9.818289] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pseudoPins.c\n'}
+[9.823856] (-) TimerEvent: {}
+[9.824242] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pseudoPins.h\n'}
+[9.827186] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/rht03.c\n'}
+[9.828210] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/rht03.h\n'}
+[9.828424] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/sn3218.c\n'}
+[9.832863] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/sn3218.h\n'}
+[9.833287] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softPwm.c\n'}
+[9.834235] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softPwm.h\n'}
+[9.834484] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softServo.c\n'}
+[9.834658] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softServo.h\n'}
+[9.834822] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softTone.c\n'}
+[9.835050] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softTone.h\n'}
+[9.836995] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/sr595.c\n'}
+[9.837650] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/sr595.h\n'}
+[9.838200] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPi.c\n'}
+[9.838773] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPi.h\n'}
+[9.839313] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiI2C.c\n'}
+[9.839908] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiI2C.h\n'}
+[9.840462] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiLegacy.c\n'}
+[9.848976] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiLegacy.h\n'}
+[9.849546] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiSPI.c\n'}
+[9.850106] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiSPI.h\n'}
+[9.850784] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringSerial.c\n'}
+[9.851357] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringSerial.h\n'}
+[9.865140] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringShift.c\n'}
+[9.865787] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringShift.h\n'}
+[9.867579] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wpiExtensions.c\n'}
+[9.868117] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wpiExtensions.h\n'}
+[9.868931] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/Makefile\n'}
+[9.869561] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/daemonise.c\n'}
+[9.870189] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/daemonise.h\n'}
+[9.870752] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/drcNetCmd.h\n'}
+[9.871334] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/network.c\n'}
+[9.871897] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/network.h\n'}
+[9.873324] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/runRemote.c\n'}
+[9.873620] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/runRemote.h\n'}
+[9.874783] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/wiringpid.c\n'}
+[9.877466] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/racoonbot_system.hpp\n'}
+[9.877695] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/visibility_control.h\n'}
+[9.877874] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/ros2_control/racoonbot.ros2_control.xacro\n'}
+[9.883524] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.materials.xacro\n'}
+[9.884149] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.urdf.xacro\n'}
+[9.885019] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description.urdf.xacro\n'}
+[9.885553] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description_3.urdf.xacro\n'}
+[9.889222] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot copy.rviz\n'}
+[9.891452] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot.rviz\n'}
+[9.891965] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view copy.rviz\n'}
+[9.892285] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view.rviz\n'}
+[9.897609] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/base_link.dae\n'}
+[9.898093] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/caster_link.dae\n'}
+[9.898430] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/motor_link.dae\n'}
+[9.898739] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/scan_link.dae\n'}
+[9.899069] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/wheel_link.dae\n'}
+[9.899602] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/launch/racoonbot.launch.py\n'}
+[9.900100] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/config/racoonbot_controllers.yaml\n'}
+[9.900528] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.sh\n'}
+[9.901112] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.dsv\n'}
+[9.901976] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg\n'}
+[9.902149] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg\n'}
+[9.903296] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.sh\n'}
+[9.903606] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.dsv\n'}
+[9.909138] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.sh\n'}
+[9.909614] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.dsv\n'}
+[9.909999] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.bash\n'}
+[9.910372] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.sh\n'}
+[9.910751] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.zsh\n'}
+[9.911328] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.dsv\n'}
+[9.911646] (racoonbot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/package.dsv\n'}
+[9.924444] (-) TimerEvent: {}
+[9.963049] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/packages/racoonbot_pkg\n'}
+[9.963657] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg\n'}
+[9.964213] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.964915] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.966637] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig.cmake\n'}
+[9.967133] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig-version.cmake\n'}
+[9.968169] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/package.xml\n'}
+[9.969086] (racoonbot_pkg) StdoutLine: {'line': b'-- Installing: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib/libracoonbot_pkg.so\n'}
+[9.973216] (racoonbot_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib/libracoonbot_pkg.so" to ""\n'}
+[9.973641] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake\n'}
+[9.974251] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport-noconfig.cmake\n'}
+[9.989773] (racoonbot_pkg) CommandEnded: {'returncode': 0}
+[10.029501] (-) TimerEvent: {}
+[10.135566] (-) TimerEvent: {}
+[10.205888] (racoonbot_pkg) JobEnded: {'identifier': 'racoonbot_pkg', 'rc': 0}
+[10.209441] (-) EventReactorShutdown: {}

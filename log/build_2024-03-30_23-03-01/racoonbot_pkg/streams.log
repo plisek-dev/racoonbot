@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg': /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o[0m
+[2.792s] In file included from [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_system.hpp:34[m[K,
+[2.792s]                  from [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:15[m[K:
+[2.792s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_control.hpp:[m[K In member function ‘[01m[Kvoid RacoonBotControl::motor_speed_callback(double, const string&)[m[K’:
+[2.792s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_control.hpp:57:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kduty_c[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.792s]    57 |         void motor_speed_callback([01;35m[Kconst double duty_c[m[K, const std::string& source) {
+[2.792s]       |                                   [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[2.819s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn racoonbot_pkg::RacoonBotSystemHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[2.819s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:156:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kleft_wheel_[m[K’
+[2.819s]   156 |   left_wheel_.cmd = 0
+[2.819s]       |                      [01;31m[K^[m[K
+[2.819s]       |                      [32m[K;[m[K
+[2.819s]   157 |   [32m[Kleft_wheel_[m[K.pos = 0
+[2.820s]       |   [32m[K~~~~~~~~~~~[m[K         
+[2.826s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:163:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[2.826s]   163 |   for (auto i = 0u; [01;31m[Ki[m[K < hw_positions_.size(); i++)
+[2.826s]       |                     [01;31m[K^[m[K
+[2.827s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type racoonbot_pkg::RacoonBotSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.827s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:192:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.827s]   192 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[2.827s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.636s] gmake[2]: *** [CMakeFiles/racoonbot_pkg.dir/build.make:76: CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o] Error 1
+[3.636s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/racoonbot_pkg.dir/all] Error 2
+[3.637s] gmake: *** [Makefile:146: all] Error 2
+[3.639s] Invoked command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg' returned '2': /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2

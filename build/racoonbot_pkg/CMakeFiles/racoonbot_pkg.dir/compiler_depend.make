@@ -383,6 +383,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
   /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
   /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/visibility_control.h \
+  /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_control.hpp \
+  /usr/include/c++/11/iostream \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -407,73 +409,60 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/cstddef \
-  /opt/ros/humble/include/hardware_interface/lexical_casts.hpp \
-  /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
-  /usr/include/c++/11/csignal \
-  /usr/include/signal.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
-  /usr/include/c++/11/future \
+  /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/WiringPi/wiringPi/wiringPi.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
   /usr/include/c++/11/atomic \
-  /usr/include/c++/11/bits/atomic_futex.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
-  /usr/include/c++/11/set \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_set.h \
-  /usr/include/c++/11/bits/stl_multiset.h \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/iostream \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/list.tcc \
   /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/humble/include/rcl/rcl/error_handling.h \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/optional \
   /usr/include/c++/11/variant \
-  /opt/ros/humble/include/rcl/rcl/error_handling.h \
   /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
@@ -508,6 +497,7 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /opt/ros/humble/include/rmw/rmw/impl/config.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
   /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
@@ -544,21 +534,31 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
   /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
   /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
@@ -584,41 +584,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
   /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
-  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
@@ -658,6 +623,52 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
   /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
+  /usr/include/c++/11/csignal \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/cassert \
+  /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
@@ -703,6 +714,14 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__traits.hpp \
+  /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/wheel.hpp \
+  /usr/include/c++/11/cstddef \
+  /opt/ros/humble/include/hardware_interface/lexical_casts.hpp \
+  /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp \
   /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
   /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
   /usr/include/console_bridge/console.h \
@@ -720,7 +739,11 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:
 
-/usr/include/console_bridge_export.h:
+/usr/include/c++/11/cstddef:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__traits.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -735,6 +758,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/float64.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp:
 
@@ -774,6 +799,66 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp:
+
+/usr/include/c++/11/cassert:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/c++/11/csignal:
+
+/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
@@ -784,6 +869,10 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:
@@ -791,8 +880,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
 
@@ -814,57 +901,15 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/shared_library.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
-
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
 
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/usr/include/linux/close_range.h:
+
+/usr/include/c++/11/bits/stl_numeric.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
 
@@ -894,14 +939,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
@@ -910,23 +947,29 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:
 
 /usr/include/c++/11/ratio:
-
-/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
-
-/usr/include/c++/11/thread:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
@@ -934,9 +977,9 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/quoted_string.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
 /usr/include/c++/11/bits/locale_conv.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
 /usr/include/c++/11/cxxabi.h:
 
@@ -954,6 +997,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
@@ -961,6 +1006,10 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
+
+/opt/ros/humble/include/hardware_interface/lexical_casts.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
@@ -990,8 +1039,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rmw/rmw/message_sequence.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
 /usr/include/c++/11/istream:
 
 /usr/include/c++/11/sstream:
@@ -1018,11 +1065,13 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
+/usr/include/unistd.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+
 /usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 /usr/include/c++/11/stdexcept:
 
@@ -1031,6 +1080,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
 /usr/include/c++/11/bits/vector.tcc:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
 /usr/include/c++/11/bits/stl_bvector.h:
 
@@ -1045,8 +1096,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /opt/ros/humble/include/rcl/rcl/init.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
-
-/usr/include/c++/11/cstddef:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
@@ -1066,21 +1115,25 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rclcpp/rclcpp/context.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
 
-/usr/include/sched.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /opt/ros/humble/include/rmw/rmw/security_options.h:
 
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__builder.hpp:
 
 /usr/include/c++/11/cerrno:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/c++/11/chrono:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -1130,8 +1183,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/ctype.h:
-
 /usr/include/c++/11/locale:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
@@ -1146,7 +1197,7 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/iomanip:
 
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+/opt/ros/humble/include/rcutils/rcutils/shared_library.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
@@ -1159,10 +1210,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
-
-/usr/include/c++/11/functional:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
@@ -1216,17 +1263,21 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
+/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/WiringPi/wiringPi/wiringPi.h:
+
 /usr/include/c++/11/bits/std_thread.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
+
+/usr/include/c++/11/thread:
+
+/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
+
 /usr/include/c++/11/iterator:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
 
@@ -1256,6 +1307,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
@@ -1264,17 +1317,17 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/atomic_base.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
+/usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
+/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_control.hpp:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/wheel.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -1292,12 +1345,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/tracetools/tracetools/config.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
-
-/usr/include/c++/11/cstring:
-
-/usr/include/c++/11/bits/atomic_futex.h:
-
 /usr/include/c++/11/bits/charconv.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -1314,6 +1361,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/ctime:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/state.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
@@ -1323,8 +1372,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
 /usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/initializer_list:
 
 /usr/include/c++/11/debug/debug.h:
 
@@ -1340,7 +1387,11 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/streambuf:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/opt/ros/humble/include/rcutils/rcutils/allocator.h:
+
+/usr/include/c++/11/bits/functexcept.h:
 
 /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp:
 
@@ -1404,11 +1455,23 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
 /usr/include/errno.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
 /opt/ros/humble/include/rcl/rcl/allocator.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
 
 /usr/include/c++/11/bits/move.h:
 
@@ -1416,21 +1479,9 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/opt/ros/humble/include/hardware_interface/lexical_casts.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/c++/11/bits/shared_ptr.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
 
 /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:
 
@@ -1444,7 +1495,7 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
 
@@ -1453,8 +1504,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
-
-/usr/include/c++/11/csignal:
 
 /usr/include/c++/11/string:
 
@@ -1466,7 +1515,9 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/stl_function.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
+/opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp:
+
+/usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/algorithm:
 
@@ -1502,10 +1553,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
-/usr/include/unistd.h:
-
 /usr/include/c++/11/cwchar:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
@@ -1520,6 +1567,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp:
+
 /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_system.hpp:
 
 /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/visibility_control.h:
@@ -1532,13 +1581,13 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/node_handle.h:
 
-/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/c++/11/iostream:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
@@ -1550,6 +1599,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
+
 /usr/include/c++/11/system_error:
 
 /usr/include/features-time64.h:
@@ -1557,8 +1608,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
@@ -1574,11 +1623,19 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
+/usr/include/c++/11/set:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/libintl.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -1589,8 +1646,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
 
 /usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
@@ -1612,7 +1667,9 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
+/usr/include/c++/11/functional:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
 
 /usr/include/c++/11/bits/allocator.h:
 
@@ -1650,15 +1707,19 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
+
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /opt/ros/humble/include/rcl/rcl/time.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 
@@ -1730,6 +1791,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
+
 /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
 /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
@@ -1750,8 +1813,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
-
 /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
 
 /opt/ros/humble/include/rmw/rmw/init_options.h:
@@ -1770,9 +1831,13 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/stream_iterator.h:
 
+/opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
 /opt/ros/humble/include/rcl/rcl/visibility_control.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
 
@@ -1785,8 +1850,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
@@ -1806,6 +1869,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
+
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp:
 
 /opt/ros/humble/include/rcl/rcl/publisher.h:
@@ -1814,13 +1879,13 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/rcl_lifecycle.h:
 
+/usr/include/sched.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
@@ -1834,9 +1899,7 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rcl/rcl/init_options.h:
 
-/usr/include/c++/11/bits/stl_numeric.h:
-
-/usr/include/linux/close_range.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
 
@@ -1872,6 +1935,8 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rcl/rcl/service.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
@@ -1886,12 +1951,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
-
-/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
-
 /usr/include/c++/11/clocale:
 
 /opt/ros/humble/include/rcl/rcl/event.h:
@@ -1900,6 +1959,12 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
+/usr/include/c++/11/bits/stl_set.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
+
+/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h:
+
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/default_state_machine.h:
@@ -1907,10 +1972,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
 
 /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h:
-
-/opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h:
 
@@ -1960,8 +2021,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
 /usr/include/c++/11/tr1/ell_integral.tcc:
@@ -1980,55 +2039,25 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
-/usr/include/c++/11/bits/memoryfwd.h:
+/usr/include/c++/11/initializer_list:
 
-/opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+/usr/include/console_bridge_export.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__builder.hpp:
 
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/opt/ros/humble/include/rcutils/rcutils/allocator.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/c++/11/chrono:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
 /usr/include/c++/11/atomic:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/c++/11/set:
-
-/opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
-
-/usr/include/c++/11/bits/stl_set.h:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/c++/11/cassert:
 
 /usr/include/c++/11/list:
 
@@ -2040,23 +2069,53 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
-/opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+/usr/include/c++/11/cstring:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/c++/11/bits/atomic_futex.h:
 
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
+
+/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
 
-/usr/include/c++/11/condition_variable:
-
 /usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/c++/11/condition_variable:
 
 /usr/include/c++/11/optional:
 
@@ -2072,9 +2131,9 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
 
-/opt/ros/humble/include/rmw/rmw/names_and_types.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
-/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+/opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 
@@ -2094,9 +2153,9 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 
 /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
 /usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
 
@@ -2123,8 +2182,6 @@ CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o: /home/lisior/Works
 /usr/include/c++/11/shared_mutex:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
 
