@@ -1,0 +1,314 @@
+[0.015s] Invoking command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg': /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target racoonbot_pkg[0m
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/racoonbot_pkg.dir/hardware/racoonbot_system.cpp.o[0m
+[3.753s] In file included from [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_system.hpp:34[m[K,
+[3.753s]                  from [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:15[m[K:
+[3.754s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_control.hpp:[m[K In member function ‘[01m[Kvoid RacoonBotControl::motor_speed_callback(double, const string&)[m[K’:
+[3.754s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_control.hpp:57:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kduty_c[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.754s]    57 |         void motor_speed_callback([01;35m[Kconst double duty_c[m[K, const std::string& source) {
+[3.754s]       |                                   [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[3.785s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type racoonbot_pkg::RacoonBotSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.785s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:184:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.785s]   184 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[3.785s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.799s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.800s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.800s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.800s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+[3.800s]                  from [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_control.hpp:19[m[K,
+[3.800s]                  from [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/include/racoonbot_pkg/racoonbot_system.hpp:34[m[K,
+[3.800s]                  from [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:15[m[K:
+[3.800s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type racoonbot_pkg::RacoonBotSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.800s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:198:62:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.800s]   198 |   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), [01;35m[K"LEFT CMD VEL %d"[m[K, [32m[K&left_wheel_.cmd[m[K);
+[3.801s]       |                                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[3.801s]       |                                                                                 [32m[K|[m[K
+[3.801s]       |                                                                                 [32m[Kdouble*[m[K
+[3.801s] [01m[K/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/hardware/racoonbot_system.cpp:198:77:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.801s]   198 |   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "LEFT CMD VEL [01;36m[K%d[m[K", &left_wheel_.cmd);
+[3.801s]       |                                                                            [01;36m[K~^[m[K
+[3.802s]       |                                                                             [01;36m[K|[m[K
+[3.802s]       |                                                                             [01;36m[Kint[m[K
+[5.295s] [100%] [32m[1mLinking CXX shared library libracoonbot_pkg.so[0m
+[5.465s] [100%] Built target racoonbot_pkg
+[5.482s] Invoked command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg' returned '0': /usr/bin/cmake --build /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg -- -j2 -l2
+[5.538s] Invoking command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg': /usr/bin/cmake --install /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg
+[5.548s] -- Install configuration: ""
+[5.549s] -- Execute custom install script
+[5.550s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg//racoonbot_pkg.xml
+[5.553s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/HEAD
+[5.554s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/config
+[5.555s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/description
+[5.555s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/applypatch-msg.sample
+[5.556s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/commit-msg.sample
+[5.556s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/fsmonitor-watchman.sample
+[5.557s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/post-update.sample
+[5.557s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-applypatch.sample
+[5.558s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-commit.sample
+[5.558s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-merge-commit.sample
+[5.559s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-push.sample
+[5.559s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-rebase.sample
+[5.559s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/pre-receive.sample
+[5.560s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/prepare-commit-msg.sample
+[5.560s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/push-to-checkout.sample
+[5.561s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/hooks/update.sample
+[5.561s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/index
+[5.562s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/info/exclude
+[5.562s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/logs/HEAD
+[5.563s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/logs/refs/heads/ubuntu
+[5.563s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/logs/refs/remotes/origin/HEAD
+[5.564s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/objects/pack/pack-9bc2a6d205bc49b80870ad41688d6f1822d04ed5.idx
+[5.564s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/objects/pack/pack-9bc2a6d205bc49b80870ad41688d6f1822d04ed5.pack
+[5.564s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/packed-refs
+[5.565s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/refs/heads/ubuntu
+[5.568s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.git/refs/remotes/origin/HEAD
+[5.568s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.github/workflows/build.yml
+[5.568s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/.gitignore
+[5.568s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/COPYING.LESSER
+[5.568s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/INSTALL
+[5.568s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/People
+[5.569s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/README.md
+[5.569s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/VERSION
+[5.569s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/build
+[5.569s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian-template/wiringPi/DEBIAN/postinst
+[5.569s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian-template/wiringPi/DEBIAN/postrm
+[5.569s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian-template/wiringPi/control_template
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/.gitignore
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/changelog
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/compat
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/control
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/copyright
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/libwiringpi-dev.dirs
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/libwiringpi-dev.install
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/libwiringpi2.install
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/libwiringpi2.shlibs
+[5.570s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/rules
+[5.576s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/wiringpi.dirs
+[5.576s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/debian/wiringpi.install
+[5.577s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/Makefile
+[5.577s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/ds1302.c
+[5.577s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/ds1302.h
+[5.577s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/font.h
+[5.577s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/gertboard.c
+[5.577s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/gertboard.h
+[5.577s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/lcd.c
+[5.578s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/lcd.h
+[5.578s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/lcd128x64.c
+[5.578s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/lcd128x64.h
+[5.578s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/maxdetect.c
+[5.578s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/maxdetect.h
+[5.585s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piFace.c
+[5.586s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piFace.h
+[5.586s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piFaceOld.c
+[5.587s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piGlow.c
+[5.587s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piGlow.h
+[5.590s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piNes.c
+[5.590s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/piNes.h
+[5.592s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/scrollPhat.c
+[5.593s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/scrollPhat.h
+[5.593s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/devLib/scrollPhatFont.h
+[5.594s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/COPYING.LESSER
+[5.594s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/7segments.c
+[5.595s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/Makefile
+[5.595s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/buttons.c
+[5.595s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/gertboard.c
+[5.596s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/record.c
+[5.597s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/temperature.c
+[5.597s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/voltmeter.c
+[5.599s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Gertboard/vumeter.c
+[5.599s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/Makefile
+[5.600s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/Makefile
+[5.600s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/blink.c
+[5.600s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/buttons.c
+[5.600s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/ladder.c
+[5.601s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/metro.c
+[5.601s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/motor.c
+[5.601s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiFace/reaction.c
+[5.602s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiGlow/Makefile
+[5.602s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiGlow/piGlow0.c
+[5.602s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiGlow/piGlow1.c
+[5.602s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/PiGlow/piglow.c
+[5.603s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/README.TXT
+[5.603s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink-thread.c
+[5.603s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink.c
+[5.603s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink.rtb
+[5.603s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink.sh
+[5.604s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink12.c
+[5.604s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink12drcs.c
+[5.604s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink6drcs.c
+[5.605s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink8-drcn.c
+[5.605s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/blink8.c
+[5.605s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/clock.c
+[5.606s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/delayTest.c
+[5.606s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/ds1302.c
+[5.606s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/header.h
+[5.608s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/isr-osc.c
+[5.608s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/isr.c
+[5.609s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/lcd-adafruit.c
+[5.610s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/lcd.c
+[5.610s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/lowPower.c
+[5.610s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/max31855.c
+[5.611s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/nes.c
+[5.611s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/okLed.c
+[5.612s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/pwm.c
+[5.612s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/Makefile
+[5.612s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/binary.c
+[5.613s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/blink-io.c
+[5.613s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/blink.c
+[5.614s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/blink.sh
+[5.614s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/bright.c
+[5.614s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/button.c
+[5.614s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/q2w/volts.c
+[5.614s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/rht03.c
+[5.615s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/scrollPhat/Makefile
+[5.615s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/scrollPhat/scphat.c
+[5.616s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/scrollPhat/test.c
+[5.616s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/serialRead.c
+[5.617s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/serialTest.c
+[5.617s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/servo.c
+[5.617s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/softPwm.c
+[5.617s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/softTone.c
+[5.617s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/speed.c
+[5.617s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/spiSpeed.c
+[5.618s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/examples/wfi.c
+[5.618s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/COPYING.LESSER
+[5.618s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/Makefile
+[5.618s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/gpio.1
+[5.619s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/gpio.c
+[5.620s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/pintest
+[5.620s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/readall.c
+[5.620s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/gpio/test.sh
+[5.620s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/newVersion
+[5.621s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/pins/Makefile
+[5.621s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/pins/pins.pdf
+[5.622s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/pins/pins.tex
+[5.622s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/reinstall
+[5.623s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/version.h
+[5.623s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/COPYING.LESSER
+[5.623s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/Makefile
+[5.623s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/ads1115.c
+[5.623s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/ads1115.h
+[5.624s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/bmp180.c
+[5.624s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/bmp180.h
+[5.625s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/drcNet.c
+[5.625s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/drcNet.h
+[5.625s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/drcSerial.c
+[5.629s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/drcSerial.h
+[5.629s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/ds18b20.c
+[5.629s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/ds18b20.h
+[5.629s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/htu21d.c
+[5.630s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/htu21d.h
+[5.630s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/max31855.c
+[5.630s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/max31855.h
+[5.631s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/max5322.c
+[5.631s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/max5322.h
+[5.631s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23008.c
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23008.h
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23016.c
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23016.h
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23016reg.h
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23017.c
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23017.h
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23s08.c
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23s08.h
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23s17.c
+[5.632s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23s17.h
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23x08.h
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp23x0817.h
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3002.c
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3002.h
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3004.c
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3004.h
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3422.c
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp3422.h
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp4802.c
+[5.633s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/mcp4802.h
+[5.634s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/noMoreStatic
+[5.634s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pcf8574.c
+[5.634s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pcf8574.h
+[5.637s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pcf8591.c
+[5.637s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pcf8591.h
+[5.637s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/piHiPri.c
+[5.637s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/piThread.c
+[5.638s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pseudoPins.c
+[5.638s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/pseudoPins.h
+[5.638s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/rht03.c
+[5.638s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/rht03.h
+[5.638s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/sn3218.c
+[5.638s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/sn3218.h
+[5.638s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softPwm.c
+[5.645s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softPwm.h
+[5.646s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softServo.c
+[5.646s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softServo.h
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softTone.c
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/softTone.h
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/sr595.c
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/sr595.h
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPi.c
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPi.h
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiI2C.c
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiI2C.h
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiLegacy.c
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiLegacy.h
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiSPI.c
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringPiSPI.h
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringSerial.c
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringSerial.h
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringShift.c
+[5.647s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wiringShift.h
+[5.648s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wpiExtensions.c
+[5.648s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPi/wpiExtensions.h
+[5.648s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/Makefile
+[5.648s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/daemonise.c
+[5.648s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/daemonise.h
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/drcNetCmd.h
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/network.c
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/network.h
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/runRemote.c
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/runRemote.h
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/WiringPi/wiringPiD/wiringpid.c
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/racoonbot_control.hpp
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/racoonbot_system.hpp
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/visibility_control.h
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/wheel.hpp
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/ros2_control/racoonbot.ros2_control.xacro
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.materials.xacro
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.urdf.xacro
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description.urdf.xacro
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description_3.urdf.xacro
+[5.649s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot copy.rviz
+[5.650s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot.rviz
+[5.650s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view copy.rviz
+[5.650s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view.rviz
+[5.650s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/base_link.dae
+[5.650s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/caster_link.dae
+[5.650s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/motor_link.dae
+[5.650s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/scan_link.dae
+[5.655s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/meshes/wheel_link.dae
+[5.655s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/launch/racoonbot.launch.py
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/config/racoonbot_controllers.yaml
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.sh
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.dsv
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.sh
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.dsv
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.sh
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.dsv
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.bash
+[5.656s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.sh
+[5.657s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.zsh
+[5.657s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.dsv
+[5.657s] -- Symlinking: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/package.dsv
+[5.657s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/packages/racoonbot_pkg
+[5.657s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg
+[5.657s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[5.657s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.657s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig.cmake
+[5.657s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig-version.cmake
+[5.657s] -- Up-to-date symlink: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/package.xml
+[5.657s] -- Installing: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib/libracoonbot_pkg.so
+[5.665s] -- Set runtime path of "/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/lib/libracoonbot_pkg.so" to ""
+[5.665s] -- Up-to-date: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake
+[5.665s] -- Up-to-date: /home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport-noconfig.cmake
+[5.686s] Invoked command in '/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg' returned '0': /usr/bin/cmake --install /home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg

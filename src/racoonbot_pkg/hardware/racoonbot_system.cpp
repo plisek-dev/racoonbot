@@ -40,10 +40,6 @@ hardware_interface::CallbackReturn RacoonBotSystemHardware::on_init(
     // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
 
   // END: This part here is for exemplary purposes - Please do not copy to your production code
-  hw_positions_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
-  hw_velocities_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
-  hw_commands_.resize(info_.joints.size(), std::numeric_limits<double>::quiet_NaN());
-
 
   cfg_.left_wheel_name = info_.hardware_parameters["left_wheel_name"];
   cfg_.right_wheel_name = info_.hardware_parameters["right_wheel_name"];
@@ -123,13 +119,16 @@ hardware_interface::CallbackReturn RacoonBotSystemHardware::on_init(
 std::vector<hardware_interface::StateInterface> RacoonBotSystemHardware::export_state_interfaces()
 {
   std::vector<hardware_interface::StateInterface> state_interfaces;
-  for (auto i = 0u; i < info_.joints.size(); i++)
-  {
-    state_interfaces.emplace_back(hardware_interface::StateInterface(
-      info_.joints[i].name, hardware_interface::HW_IF_POSITION, &hw_positions_[i]));
-    state_interfaces.emplace_back(hardware_interface::StateInterface(
-      info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &hw_velocities_[i]));
-  }
+
+  state_interfaces.emplace_back(hardware_interface::StateInterface(
+    left_wheel_.name, hardware_interface::HW_IF_POSITION, &left_wheel_.pos));
+  state_interfaces.emplace_back(hardware_interface::StateInterface(
+    left_wheel_.name, hardware_interface::HW_IF_VELOCITY, &left_wheel_.vel));
+
+  state_interfaces.emplace_back(hardware_interface::StateInterface(
+    right_wheel_.name, hardware_interface::HW_IF_POSITION, &right_wheel_.pos));
+  state_interfaces.emplace_back(hardware_interface::StateInterface(
+    right_wheel_.name, hardware_interface::HW_IF_VELOCITY, &right_wheel_.vel));
 
   return state_interfaces;
 }
@@ -137,11 +136,12 @@ std::vector<hardware_interface::StateInterface> RacoonBotSystemHardware::export_
 std::vector<hardware_interface::CommandInterface> RacoonBotSystemHardware::export_command_interfaces()
 {
   std::vector<hardware_interface::CommandInterface> command_interfaces;
-  for (auto i = 0u; i < info_.joints.size(); i++)
-  {
-    command_interfaces.emplace_back(hardware_interface::CommandInterface(
-      info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &hw_commands_[i]));
-  }
+
+  command_interfaces.emplace_back(hardware_interface::CommandInterface(
+    left_wheel_.name, hardware_interface::HW_IF_VELOCITY, &left_wheel_.cmd));
+  command_interfaces.emplace_back(hardware_interface::CommandInterface(
+    right_wheel_.name, hardware_interface::HW_IF_VELOCITY, &right_wheel_.cmd));
+
 
   return command_interfaces;
 }
@@ -153,23 +153,14 @@ hardware_interface::CallbackReturn RacoonBotSystemHardware::on_activate(
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Activating ...please wait...");
 
   // END: This part here is for exemplary purposes - Please do not copy to your production code
-  left_wheel_.cmd = 0;
-  left_wheel_.pos = 0;
-  left_wheel_.vel = 0;
-  right_wheel_.cmd = 0;
-  right_wheel_.pos = 0;
-  right_wheel_.vel = 0;
-  
+  // left_wheel_.cmd = 0;
+  // left_wheel_.pos = 0;
+  // left_wheel_.vel = 0;
+  // right_wheel_.cmd = 0;
+  // right_wheel_.pos = 0;
+  // right_wheel_.vel = 0;
+
   // set some default values
-  for (auto i = 0u; i < hw_positions_.size(); i++)
-  {
-    if (std::isnan(hw_positions_[i]))
-    {
-      hw_positions_[i] = 0;
-      hw_velocities_[i] = 0;
-      hw_commands_[i] = 0;
-    }
-  }
 
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Successfully activated!");
 
@@ -204,6 +195,7 @@ hardware_interface::return_type racoonbot_pkg ::RacoonBotSystemHardware::write(
 {
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Writing...");
+  RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "LEFT CMD VEL %f", left_wheel_.cmd);
 
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Joints successfully written!");
   // END: This part here is for exemplary purposes - Please do not copy to your production code
