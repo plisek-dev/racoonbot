@@ -1,0 +1,2 @@
+[submodule "ldrobot-lidar-ros2"]
+	branch = humble

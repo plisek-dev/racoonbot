@@ -1,0 +1,5 @@
+ldrobot-lidar-ros2:
+  ubuntu:
+    jammy:
+      git:
+        packages: [ https://github.com/Myzhar/ldrobot-lidar-ros2.git ]
