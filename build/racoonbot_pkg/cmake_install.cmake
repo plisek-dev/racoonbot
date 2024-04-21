@@ -1,8 +1,8 @@
-# Install script for directory: /home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg
+# Install script for directory: /home/pawel/Workspaces/racoonbot/src/racoonbot_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,12 +53,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libracoonbot_pkg.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/libracoonbot_pkg.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/libracoonbot_pkg.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libracoonbot_pkg.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libracoonbot_pkg.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libracoonbot_pkg.so"
-         OLD_RPATH "/opt/ros/humble/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libracoonbot_pkg.so")
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake"
-         "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/CMakeFiles/Export/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake")
+         "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/CMakeFiles/Export/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -82,9 +82,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/racoonbot_pkg/cmake" TYPE FILE FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/CMakeFiles/Export/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/racoonbot_pkg/cmake" TYPE FILE FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/CMakeFiles/Export/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/racoonbot_pkg/cmake" TYPE FILE FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/CMakeFiles/Export/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/racoonbot_pkg/cmake" TYPE FILE FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/CMakeFiles/Export/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport-noconfig.cmake")
   endif()
 endif()
 
@@ -96,5 +96,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

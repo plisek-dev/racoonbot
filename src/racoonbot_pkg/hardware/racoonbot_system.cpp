@@ -153,13 +153,14 @@ hardware_interface::CallbackReturn RacoonBotSystemHardware::on_activate(
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Activating ...please wait...");
 
   // END: This part here is for exemplary purposes - Please do not copy to your production code
-  // left_wheel_.cmd = 0;
-  // left_wheel_.pos = 0;
-  // left_wheel_.vel = 0;
-  // right_wheel_.cmd = 0;
-  // right_wheel_.pos = 0;
-  // right_wheel_.vel = 0;
+  left_wheel_.cmd = 0;
+  left_wheel_.pos = 0;
+  left_wheel_.vel = 0;
+  right_wheel_.cmd = 0;
+  right_wheel_.pos = 0;
+  right_wheel_.vel = 0;
 
+  control_.activate();
   // set some default values
 
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Successfully activated!");
@@ -172,7 +173,7 @@ hardware_interface::CallbackReturn RacoonBotSystemHardware::on_deactivate(
 {
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Deactivating ...please wait...");
-
+  control_.deactivate();
   // END: This part here is for exemplary purposes - Please do not copy to your production code
 
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Successfully deactivated!");
@@ -196,6 +197,10 @@ hardware_interface::return_type racoonbot_pkg ::RacoonBotSystemHardware::write(
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Writing...");
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "LEFT CMD VEL %f", left_wheel_.cmd);
+  RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "LEFT CMD VEL %f", left_wheel_.cmd);
+
+  control_.write(left_wheel_.cmd, "left");
+  control_.write(right_wheel_.cmd, "right");
 
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Joints successfully written!");
   // END: This part here is for exemplary purposes - Please do not copy to your production code

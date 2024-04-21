@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/lisior/Workspaces/racoonbot_ws/install/racoonbot_pkg/${destination}")
+      set(destination "/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,70 +311,70 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(FILES "racoonbot_pkg.xml" "DESTINATION" "share/racoonbot_pkg/")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "racoonbot_pkg.xml" "DESTINATION" "share/racoonbot_pkg/")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "racoonbot_pkg.xml" "DESTINATION" "share/racoonbot_pkg/")
 
 # install(DIRECTORY "hardware/include/" "DESTINATION" "include/racoonbot_pkg")
-ament_cmake_symlink_install_directory("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" DIRECTORY "hardware/include/" "DESTINATION" "include/racoonbot_pkg")
+ament_cmake_symlink_install_directory("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" DIRECTORY "hardware/include/" "DESTINATION" "include/racoonbot_pkg")
 
 # install(DIRECTORY "description/ros2_control" "description/urdf" "description/rviz" "description/meshes" "DESTINATION" "share/racoonbot_pkg")
-ament_cmake_symlink_install_directory("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" DIRECTORY "description/ros2_control" "description/urdf" "description/rviz" "description/meshes" "DESTINATION" "share/racoonbot_pkg")
+ament_cmake_symlink_install_directory("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" DIRECTORY "description/ros2_control" "description/urdf" "description/rviz" "description/meshes" "DESTINATION" "share/racoonbot_pkg")
 
 # install(DIRECTORY "bringup/launch" "bringup/config" "DESTINATION" "share/racoonbot_pkg")
-ament_cmake_symlink_install_directory("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" DIRECTORY "bringup/launch" "bringup/config" "DESTINATION" "share/racoonbot_pkg")
+ament_cmake_symlink_install_directory("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" DIRECTORY "bringup/launch" "bringup/config" "DESTINATION" "share/racoonbot_pkg")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/racoonbot_pkg/environment")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/racoonbot_pkg/environment")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/racoonbot_pkg/environment")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/racoonbot_pkg/environment")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/racoonbot_pkg/environment")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/racoonbot_pkg/environment")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/racoonbot_pkg/environment")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/racoonbot_pkg/environment")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/racoonbot_pkg/environment")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/racoonbot_pkg/environment")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/racoonbot_pkg")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/racoonbot_pkg")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/racoonbot_pkg")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/racoonbot_pkg")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/racoonbot_pkg")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/racoonbot_pkg")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/racoonbot_pkg")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/racoonbot_pkg")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/racoonbot_pkg")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/racoonbot_pkg")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/racoonbot_pkg")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/racoonbot_pkg")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/racoonbot_pkg")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/racoonbot_pkg")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/racoonbot_pkg")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/racoonbot_pkg")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/racoonbot_pkg")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/racoonbot_pkg")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/racoonbot_pkg")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/racoonbot_pkg")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/packages/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/packages/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/packages/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/packages/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/hardware_interface__pluginlib__plugin")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/hardware_interface__pluginlib__plugin")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/hardware_interface__pluginlib__plugin")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg" "DESTINATION" "share/ament_index/resource_index/hardware_interface__pluginlib__plugin")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_core/racoonbot_pkgConfig.cmake" "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_core/racoonbot_pkgConfig-version.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_core/racoonbot_pkgConfig.cmake" "/home/lisior/Workspaces/racoonbot_ws/build/racoonbot_pkg/ament_cmake_core/racoonbot_pkgConfig-version.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
+# install(FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_core/racoonbot_pkgConfig.cmake" "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_core/racoonbot_pkgConfig-version.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_core/racoonbot_pkgConfig.cmake" "/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_core/racoonbot_pkgConfig-version.cmake" "DESTINATION" "share/racoonbot_pkg/cmake")
 
-# install(FILES "/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/package.xml" "DESTINATION" "share/racoonbot_pkg")
-ament_cmake_symlink_install_files("/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg" FILES "/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/package.xml" "DESTINATION" "share/racoonbot_pkg")
+# install(FILES "/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg/package.xml" "DESTINATION" "share/racoonbot_pkg")
+ament_cmake_symlink_install_files("/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg" FILES "/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg/package.xml" "DESTINATION" "share/racoonbot_pkg")

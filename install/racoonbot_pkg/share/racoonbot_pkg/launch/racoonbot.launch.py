@@ -1,1 +1,1 @@
-/home/lisior/Workspaces/racoonbot_ws/src/racoonbot_pkg/bringup/launch/racoonbot.launch.py
+/home/pawel/Workspaces/racoonbot/src/racoonbot_pkg/bringup/launch/racoonbot.launch.py

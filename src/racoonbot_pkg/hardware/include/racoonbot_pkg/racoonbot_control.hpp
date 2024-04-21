@@ -1,108 +1,146 @@
 #ifndef DIFFDRIVE_RACOONBOT_CONTROL_HPP
 #define DIFFDRIVE_RACOONBOT_CONTROL_HPP
 
-// #include <cstring>
-#include <sstream>
-// #include <cstdlib>
 #include <iostream>
-#include <chrono>
-#include <cmath>
-#include <iostream>
-#include <memory>
 #include <string>
-#include <WiringPi/wiringPi/wiringPi.h>
-
-#include "geometry_msgs/msg/twist.hpp"
-#include "geometry_msgs/msg/twist_stamped.hpp"
-#include "rclcpp/clock.hpp"
-#include "rclcpp/duration.hpp"
-#include "rclcpp/node.hpp"
+#include <pigpio.h>
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/float64.hpp"
+
 
 class RacoonBotControl
 {
-    public:
-        RacoonBotControl() = default;
+public:
+    RacoonBotControl() : 
+        left_motor_in1_(23), 
+        left_motor_in2_(24), 
+        right_motor_in1_(5), 
+        right_motor_in2_(6),
+        motor_en1_pwm_pin_(25), 
+        motor_en2_pwm_pin_(26), 
+        left_encoder_pin_(17), 
+        right_encoder_pin_(27),
+        resolution_(0), 
+        wheel_radius_(0.0325), 
+        wheel_span_(0.2), 
+        left_encoder_counter_(0), 
+        right_encoder_counter_(0),
+        max_vel_rpm_(48),
+        max_pwm_(255)
+    {
+    }
 
-        ~RacoonBotControl(){
-            // gpioTerminate();
-        }
+    ~RacoonBotControl()
+    {
+        gpioTerminate();
+    }
 
-        void activate()
-        {   
-            // GPIO Activation
-            
-            wiringPiSetupGpio();
- 
-            pinMode(left_motor_in1_, OUTPUT);
-            pinMode(left_motor_in2_, OUTPUT);
-            pinMode(right_motor_in1_, OUTPUT);
-            pinMode(right_motor_in2_, OUTPUT);
-
-            // Create PWM instances
-            pinMode(motor_en1_pwm_pin_, PWM_OUTPUT);
-            pinMode(motor_en2_pwm_pin_, PWM_OUTPUT);
-
-            // Create interrupts
-            wiringPiISR(left_encoder_pin_, INT_EDGE_RISING, &RacoonBotControl::pulse_callback_wrapper_left);
-            wiringPiISR(right_encoder_pin_, INT_EDGE_RISING, &RacoonBotControl::pulse_callback_wrapper_right);
-        }
-
-        void deactivete()
+    void activate()
+    {
+        if (gpioInitialise() < 0)
         {
-            //GPIO Deactivation
+            std::cerr << "PiGPIO initialization failed" << std::endl;
+            return;
         }
 
-        void motor_speed_callback(const double duty_c, const std::string& source) {
+        gpioSetMode(left_motor_in1_, PI_OUTPUT);
+        gpioSetMode(left_motor_in2_, PI_OUTPUT);
+        gpioSetMode(right_motor_in1_, PI_OUTPUT);
+        gpioSetMode(right_motor_in2_, PI_OUTPUT);
 
-            double duty_cycle;
-            std::string motor = source;
-            bool forward = duty_cycle > 0;
+        // Create PWM instances
+        gpioSetMode(motor_en1_pwm_pin_, PI_OUTPUT);
+        gpioSetMode(motor_en2_pwm_pin_, PI_OUTPUT);
 
-            duty_cycle = std::abs(duty_cycle) > 100 ? 100 : std::abs(duty_cycle);
+    }
 
-            if (motor == "left") {
-                if (duty_cycle != 0) {
-                    if (forward) {
-                        digitalWrite(left_motor_in1_, HIGH);
-                        digitalWrite(left_motor_in2_, LOW);
-                        std::cout << "Left going forward!" << std::endl;
-                    } else {
-                        digitalWrite(left_motor_in1_, LOW);
-                        digitalWrite(left_motor_in2_, HIGH);
-                        std::cout << "Left going backward!" << std::endl;
-                    }
-                } else {
-                    digitalWrite(left_motor_in1_, LOW);
-                    digitalWrite(left_motor_in2_, LOW);
-                    std::cout << "Left stopped!" << std::endl;
+    void deactivate()
+    {
+        gpioWrite(left_motor_in1_, 0);
+        gpioWrite(left_motor_in2_, 0);
+        gpioWrite(right_motor_in1_, 0);
+        gpioWrite(right_motor_in2_, 0);
+        gpioPWM(motor_en1_pwm_pin_, 0); 
+        gpioPWM(motor_en2_pwm_pin_, 0);
+        gpioTerminate();  
+    }
+
+    int convert_rads_pwm(double rads)
+    {
+                return std::abs(static_cast<int>(rads * (max_pwm_/(max_vel_rpm_ * 2 * 3.14 / 60))));
+    }
+
+
+    void write(const double rads, const std::string &source)
+    {
+        int pwm;
+        std::string motor = source;
+        bool forward = rads > 0;
+
+        pwm = convert_rads_pwm(rads);
+
+        pwm = (pwm > max_pwm_) ? max_pwm_ : pwm;
+
+        
+        if (motor == "left")
+        {
+            if (pwm != 0)
+            {
+                if (forward)
+                {
+                    gpioWrite(left_motor_in1_, 1);
+                    gpioWrite(left_motor_in2_, 0);
+                    RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Left going forward");
                 }
-                pwmWrite(motor_en1_pwm_pin_, duty_cycle);
-            } else if (motor == "right") {
-                if (duty_cycle != 0) {
-                    if (forward) {
-                        digitalWrite(right_motor_in1_, HIGH);
-                        digitalWrite(right_motor_in2_, LOW);
-                        std::cout << "Right going forward!" << std::endl;
-                    } else {
-                        digitalWrite(right_motor_in1_, LOW);
-                        digitalWrite(right_motor_in2_, HIGH);
-                        std::cout << "Right going backward!" << std::endl;
-                    }
-                } else {
-                    digitalWrite(right_motor_in1_, LOW);
-                    digitalWrite(right_motor_in2_, LOW);
-                    std::cout << "Right stopped!" << std::endl;
+                else
+                {
+                    gpioWrite(left_motor_in1_, 0);
+                    gpioWrite(left_motor_in2_, 1);
+                    RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Left going backward");
                 }
-                pwmWrite(motor_en2_pwm_pin_, duty_cycle);
-            } else {
-                std::cout << "Something went wrong!" << std::endl;
             }
+            else
+            {
+                gpioWrite(left_motor_in1_, 0);
+                gpioWrite(left_motor_in2_, 0);
+                RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Left stopped");
+            }
+            gpioPWM(motor_en1_pwm_pin_, pwm); // PWM duty cycle range is 0-1024
+            RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "PWM LEFT: %d", pwm);
+
         }
+        else if (motor == "right")
+        {
+            if (pwm != 0)
+            {
+                if (forward)
+                {
+                    gpioWrite(right_motor_in1_, 1);
+                    gpioWrite(right_motor_in2_, 0);
+                    RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Right going forward");
+                }
+                else
+                {
+                    gpioWrite(right_motor_in1_, 0);
+                    gpioWrite(right_motor_in2_, 1);
+                    RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Right going backward");
+                }
+            }
+            else
+            {
+                gpioWrite(right_motor_in1_, 0);
+                gpioWrite(right_motor_in2_, 0);
+                RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Right stopped");
+            }
+            gpioPWM(motor_en2_pwm_pin_, pwm); // PWM duty cycle range is 0-1024
+            RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "PWM RIGHT: %d", pwm);
 
+        }
+        else
+        {
+              RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Motor values were not written!");
+        }
+    }
 private:
-
     // Pins variables
     int left_motor_in1_;
     int left_motor_in2_;
@@ -112,35 +150,16 @@ private:
     int motor_en2_pwm_pin_;
     int left_encoder_pin_;
     int right_encoder_pin_;
-    
+
     //Parameter variables
     int resolution_;
-    double wheel_diameter_;
+    double wheel_radius_;
     double wheel_span_;
     int left_encoder_counter_;
     int right_encoder_counter_;
 
-    // Wrapers for pulse callbacks functions
-    static void pulse_callback_wrapper_left() {
-        instance_->pulse_callback("left");
-    }
-
-    static void pulse_callback_wrapper_right() {
-        instance_->pulse_callback("right");
-    }
-
-    void pulse_callback(const std::string& type) {
-        if (type == "left") {
-            left_encoder_counter_++;
-        } else if (type == "right") {
-            right_encoder_counter_++;
-        } else {
-            std::cout << "Wrong motor type!" << std::endl;
-        }
-    }
-    
-    // Static member to hold the instance
-    static RacoonBotControl* instance_; 
+    double max_vel_rpm_;
+    double max_pwm_;
 };
 
-#endif 
+#endif

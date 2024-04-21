@@ -64,6 +64,13 @@ install(TARGETS racoonbot_pkg
   RUNTIME DESTINATION bin
 )
 
+find_library(PIGPIO_LIB pigpio)
+if (PIGPIO_LIB)
+  target_link_libraries(racoonbot_pkg PRIVATE ${PIGPIO_LIB})
+else()
+  message(FATAL_ERROR "PIGPIO library not found")
+endif()
+
 # if(BUILD_TESTING)
 #   find_package(ament_cmake_pytest REQUIRED)
 #   ament_add_pytest_test(example_2_urdf_xacro test/test_urdf_xacro.py)
