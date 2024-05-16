@@ -45,7 +45,7 @@ public:
             std::cerr << "PiGPIO initialization failed" << std::endl;
             return;
         }
-        gpioInitialise()
+
         gpioSetMode(left_motor_in1_, PI_OUTPUT);
         gpioSetMode(left_motor_in2_, PI_OUTPUT);
         gpioSetMode(right_motor_in1_, PI_OUTPUT);
