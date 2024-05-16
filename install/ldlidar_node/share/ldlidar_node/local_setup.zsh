@@ -1,0 +1,1 @@
+/home/pawel/Workspaces/racoonbot/build/ldlidar_node/ament_cmake_environment_hooks/local_setup.zsh

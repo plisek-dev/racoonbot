@@ -1,0 +1,51 @@
+[0.115s] Invoking command in '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pawel/Workspaces/racoonbot/build/racoonbot_pkg -- -j4 -l4
+[1.423s] [100%] Built target racoonbot_pkg
+[1.466s] Invoked command in '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pawel/Workspaces/racoonbot/build/racoonbot_pkg -- -j4 -l4
+[1.664s] Invoking command in '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pawel/Workspaces/racoonbot/build/racoonbot_pkg
+[1.738s] -- Install configuration: ""
+[1.789s] -- Execute custom install script
+[1.791s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg//racoonbot_pkg.xml
+[1.795s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/racoonbot_control.hpp
+[1.796s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/racoonbot_system.hpp
+[1.797s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/visibility_control.h
+[1.799s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/wheel.hpp
+[1.817s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/ros2_control/racoonbot.ros2_control.xacro
+[1.828s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.materials.xacro
+[1.843s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.urdf.xacro
+[1.852s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description.urdf.xacro
+[1.857s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description_3.urdf.xacro
+[1.869s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot copy.rviz
+[1.883s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot.rviz
+[1.888s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view copy.rviz
+[1.891s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view.rviz
+[1.894s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/base_link.dae
+[1.916s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/caster_link.dae
+[1.924s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/motor_link.dae
+[1.927s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/scan_link.dae
+[1.928s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/wheel_link.dae
+[1.931s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/launch/racoonbot.launch.py
+[1.939s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/config/racoonbot_controllers.yaml
+[1.942s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.sh
+[1.943s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.dsv
+[1.945s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg
+[1.963s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg
+[1.969s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.sh
+[1.971s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.dsv
+[1.975s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.sh
+[1.976s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.dsv
+[1.977s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.bash
+[1.979s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.sh
+[1.980s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.zsh
+[1.982s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.dsv
+[1.982s] -- Symlinking: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/package.dsv
+[2.034s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/ament_index/resource_index/packages/racoonbot_pkg
+[2.036s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg
+[2.039s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[2.055s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.058s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig.cmake
+[2.062s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig-version.cmake
+[2.063s] -- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/package.xml
+[2.076s] -- Up-to-date: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/lib/libracoonbot_pkg.so
+[2.106s] -- Up-to-date: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake
+[2.107s] -- Up-to-date: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport-noconfig.cmake
+[2.119s] Invoked command in '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pawel/Workspaces/racoonbot/build/racoonbot_pkg

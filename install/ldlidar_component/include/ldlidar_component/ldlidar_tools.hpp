@@ -1,0 +1,1 @@
+/home/pawel/Workspaces/racoonbot/src/ldrobot-lidar-ros2/ldlidar_component/tools/include/ldlidar_tools.hpp

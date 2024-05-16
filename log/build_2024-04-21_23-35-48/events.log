@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.001075] (racoonbot_pkg) JobQueued: {'identifier': 'racoonbot_pkg', 'dependencies': OrderedDict()}
+[0.002020] (racoonbot_pkg) JobStarted: {'identifier': 'racoonbot_pkg'}
+[0.046418] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'cmake'}
+[0.049962] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'build'}
+[0.053302] (racoonbot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'name'), ('SSH_CLIENT', '192.168.1.30 54896 22'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/pawel/Workspaces/ros2-racoon/install/racoon_ros2_pkg/lib:/home/pawel/Workspaces/ros2-racoon/install/ldlidar_component/lib'), ('BROWSER', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/name'), ('OLDPWD', '/etc/ros/rosdep/sources.list.d'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-276fcb13-2fda-483d-870e-4d65d96cb890.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pawel/Workspaces/racoonbot/install:/home/pawel/Workspaces/ros2-racoon/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'name'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7e0dee1de.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg:/opt/ros/humble:/home/pawel/Workspaces/ros2-racoon/install/racoon_ros2_pkg:/home/pawel/Workspaces/ros2-racoon/install/ldlidar:/home/pawel/Workspaces/ros2-racoon/install/ldlidar_node'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.30 54896 192.168.1.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/pawel/Workspaces/ros2-racoon/install/racoon_ros2_pkg/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg:/home/pawel/Workspaces/ros2-racoon/install/racoon_ros2_pkg:/home/pawel/Workspaces/ros2-racoon/install/ldlidar:/home/pawel/Workspaces/ros2-racoon/install/ldlidar_node:/home/pawel/Workspaces/ros2-racoon/install/ldlidar_component:/opt/ros/humble')]), 'shell': False}
+[0.099246] (-) TimerEvent: {}
+[0.171142] (racoonbot_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199521] (-) TimerEvent: {}
+[0.301496] (-) TimerEvent: {}
+[0.402373] (-) TimerEvent: {}
+[0.503705] (-) TimerEvent: {}
+[0.604889] (-) TimerEvent: {}
+[0.705683] (-) TimerEvent: {}
+[0.709592] (racoonbot_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.743319] (racoonbot_pkg) StdoutLine: {'line': b'-- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.805876] (-) TimerEvent: {}
+[0.906602] (-) TimerEvent: {}
+[0.908465] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.919173] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.942665] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.986115] (racoonbot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.006761] (-) TimerEvent: {}
+[1.048826] (racoonbot_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.106943] (-) TimerEvent: {}
+[1.207677] (-) TimerEvent: {}
+[1.308437] (-) TimerEvent: {}
+[1.409145] (-) TimerEvent: {}
+[1.509887] (-) TimerEvent: {}
+[1.610619] (-) TimerEvent: {}
+[1.711345] (-) TimerEvent: {}
+[1.812115] (-) TimerEvent: {}
+[1.912869] (-) TimerEvent: {}
+[2.013629] (-) TimerEvent: {}
+[2.114384] (-) TimerEvent: {}
+[2.215114] (-) TimerEvent: {}
+[2.315852] (-) TimerEvent: {}
+[2.416689] (-) TimerEvent: {}
+[2.517464] (-) TimerEvent: {}
+[2.618285] (-) TimerEvent: {}
+[2.719012] (-) TimerEvent: {}
+[2.819750] (-) TimerEvent: {}
+[2.920574] (-) TimerEvent: {}
+[3.021365] (-) TimerEvent: {}
+[3.122139] (-) TimerEvent: {}
+[3.222858] (-) TimerEvent: {}
+[3.323560] (-) TimerEvent: {}
+[3.424271] (-) TimerEvent: {}
+[3.512096] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.518219] (racoonbot_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.524430] (-) TimerEvent: {}
+[3.625171] (-) TimerEvent: {}
+[3.643225] (racoonbot_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.679081] (racoonbot_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.725354] (-) TimerEvent: {}
+[3.784586] (racoonbot_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.817261] (racoonbot_pkg) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[3.825640] (-) TimerEvent: {}
+[3.856031] (racoonbot_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.925817] (-) TimerEvent: {}
+[4.026544] (-) TimerEvent: {}
+[4.127267] (-) TimerEvent: {}
+[4.228025] (-) TimerEvent: {}
+[4.328834] (-) TimerEvent: {}
+[4.429576] (-) TimerEvent: {}
+[4.530334] (-) TimerEvent: {}
+[4.631084] (-) TimerEvent: {}
+[4.731775] (-) TimerEvent: {}
+[4.832500] (-) TimerEvent: {}
+[4.933340] (-) TimerEvent: {}
+[4.957457] (racoonbot_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.033514] (-) TimerEvent: {}
+[5.111720] (racoonbot_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[5.120551] (racoonbot_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/pawel/Workspaces/racoonbot/build/racoonbot_pkg\n'}
+[5.133887] (-) TimerEvent: {}
+[5.234896] (-) TimerEvent: {}
+[5.244454] (racoonbot_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target racoonbot_pkg\x1b[0m\n'}
+[5.335104] (-) TimerEvent: {}
+[5.344991] (racoonbot_pkg) StdoutLine: {'line': b'[100%] Built target racoonbot_pkg\n'}
+[5.389274] (racoonbot_pkg) CommandEnded: {'returncode': 0}
+[5.435303] (-) TimerEvent: {}
+[5.526916] (racoonbot_pkg) JobProgress: {'identifier': 'racoonbot_pkg', 'progress': 'install'}
+[5.535472] (-) TimerEvent: {}
+[5.564740] (racoonbot_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg'], 'cwd': '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'name'), ('SSH_CLIENT', '192.168.1.30 54896 22'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/pawel/Workspaces/ros2-racoon/install/racoon_ros2_pkg/lib:/home/pawel/Workspaces/ros2-racoon/install/ldlidar_component/lib'), ('BROWSER', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/name'), ('OLDPWD', '/etc/ros/rosdep/sources.list.d'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-276fcb13-2fda-483d-870e-4d65d96cb890.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pawel/Workspaces/racoonbot/install:/home/pawel/Workspaces/ros2-racoon/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'name'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/name/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7e0dee1de.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg:/opt/ros/humble:/home/pawel/Workspaces/ros2-racoon/install/racoon_ros2_pkg:/home/pawel/Workspaces/ros2-racoon/install/ldlidar:/home/pawel/Workspaces/ros2-racoon/install/ldlidar_node'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.30 54896 192.168.1.13 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/pawel/Workspaces/ros2-racoon/install/racoon_ros2_pkg/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pawel/Workspaces/racoonbot/install/racoonbot_pkg:/home/pawel/Workspaces/ros2-racoon/install/racoon_ros2_pkg:/home/pawel/Workspaces/ros2-racoon/install/ldlidar:/home/pawel/Workspaces/ros2-racoon/install/ldlidar_node:/home/pawel/Workspaces/ros2-racoon/install/ldlidar_component:/opt/ros/humble')]), 'shell': False}
+[5.600393] (racoonbot_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.602537] (racoonbot_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.603705] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg//racoonbot_pkg.xml\n'}
+[5.605803] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/racoonbot_control.hpp\n'}
+[5.606605] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/racoonbot_system.hpp\n'}
+[5.607443] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/visibility_control.h\n'}
+[5.608268] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/include/racoonbot_pkg/racoonbot_pkg/wheel.hpp\n'}
+[5.609962] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/ros2_control/racoonbot.ros2_control.xacro\n'}
+[5.611509] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.materials.xacro\n'}
+[5.612269] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot.urdf.xacro\n'}
+[5.613070] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description.urdf.xacro\n'}
+[5.613897] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/urdf/racoonbot_description_3.urdf.xacro\n'}
+[5.615408] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot copy.rviz\n'}
+[5.616149] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot.rviz\n'}
+[5.616959] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view copy.rviz\n'}
+[5.617832] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/rviz/racoonbot_view.rviz\n'}
+[5.619369] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/base_link.dae\n'}
+[5.620124] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/caster_link.dae\n'}
+[5.620892] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/motor_link.dae\n'}
+[5.621682] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/scan_link.dae\n'}
+[5.622555] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/meshes/wheel_link.dae\n'}
+[5.624330] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/launch/racoonbot.launch.py\n'}
+[5.625626] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/config/racoonbot_controllers.yaml\n'}
+[5.626741] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.sh\n'}
+[5.627713] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/library_path.dsv\n'}
+[5.628911] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/ament_index/resource_index/package_run_dependencies/racoonbot_pkg\n'}
+[5.630154] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/ament_index/resource_index/parent_prefix_path/racoonbot_pkg\n'}
+[5.631137] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.sh\n'}
+[5.632123] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/ament_prefix_path.dsv\n'}
+[5.633067] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.sh\n'}
+[5.634119] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/environment/path.dsv\n'}
+[5.635073] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.bash\n'}
+[5.635485] (-) TimerEvent: {}
+[5.636320] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.sh\n'}
+[5.637068] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.zsh\n'}
+[5.638057] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/local_setup.dsv\n'}
+[5.638666] (racoonbot_pkg) StdoutLine: {'line': b'-- Symlinking: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/package.dsv\n'}
+[5.675341] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/ament_index/resource_index/packages/racoonbot_pkg\n'}
+[5.676511] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/racoonbot_pkg\n'}
+[5.677621] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.678864] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.679990] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig.cmake\n'}
+[5.680863] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/racoonbot_pkgConfig-version.cmake\n'}
+[5.681887] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/package.xml\n'}
+[5.683395] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/lib/libracoonbot_pkg.so\n'}
+[5.685298] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport.cmake\n'}
+[5.685946] (racoonbot_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/pawel/Workspaces/racoonbot/install/racoonbot_pkg/share/racoonbot_pkg/cmake/export_racoonbot_pkgExport-noconfig.cmake\n'}
+[5.691763] (racoonbot_pkg) CommandEnded: {'returncode': 0}
+[5.735650] (-) TimerEvent: {}
+[5.836409] (-) TimerEvent: {}
+[5.938132] (-) TimerEvent: {}
+[5.939950] (racoonbot_pkg) JobEnded: {'identifier': 'racoonbot_pkg', 'rc': 0}
+[5.942763] (-) EventReactorShutdown: {}

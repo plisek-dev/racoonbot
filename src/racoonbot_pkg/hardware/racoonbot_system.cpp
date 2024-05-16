@@ -185,7 +185,8 @@ hardware_interface::return_type RacoonBotSystemHardware::read(
   const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
 {
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
-
+  double delta_seconds = period.seconds();
+  control_.read(left_wheel_.pos, right_wheel_.pos, left_wheel_.vel, right_wheel_.vel, delta_seconds);
   // END: This part here is for exemplary purposes - Please do not copy to your production code
 
   return hardware_interface::return_type::OK;
