@@ -107,7 +107,7 @@ public:
         }
     }
 
-    void read(int &left_wheel_pos, int &right_wheel_pos, double &left_wheel_vel, double &right_wheel_vel, const double delta_seconds)
+    void read(double &left_wheel_pos, double &right_wheel_pos, double &left_wheel_vel, double &right_wheel_vel, const double delta_seconds)
     {
         left_wheel_pos = left_encoder_counter_;
         right_wheel_pos = right_encoder_counter_;
