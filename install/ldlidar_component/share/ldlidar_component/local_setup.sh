@@ -1,1 +1,0 @@
-/home/pawel/Workspaces/racoonbot/build/ldlidar_component/ament_cmake_environment_hooks/local_setup.sh
