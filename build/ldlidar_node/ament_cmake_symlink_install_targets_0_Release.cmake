@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pawel/Workspaces/racoonbot/build/ldlidar_node/ldlidar_node" "TARGETS" "ldlidar_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/ldlidar_node")
