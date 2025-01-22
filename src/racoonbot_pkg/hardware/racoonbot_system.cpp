@@ -198,7 +198,7 @@ hardware_interface::return_type racoonbot_pkg ::RacoonBotSystemHardware::write(
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Writing...");
   RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "LEFT CMD VEL %f", left_wheel_.cmd);
-  RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "LEFT CMD VEL %f", left_wheel_.cmd);
+  RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "RIGHT CMD VEL %f", right_wheel_.cmd);
 
   control_.write(left_wheel_.cmd, "left");
   control_.write(right_wheel_.cmd, "right");
