@@ -200,8 +200,8 @@ private:
 
     void pulseCallback(int gpio, int level, uint32_t tick, void *user_data)
     {
-        // Cast the user_data back to the instance of the class
-        auto *instance = static_cast<MyClass *>(user_data);
+        // Cast the user_data back to the instance of the RacoonBotControl class
+        auto *instance = static_cast<RacoonBotControl *>(user_data);
         if (instance)
         {
             // Forward the call to the instance's member function
