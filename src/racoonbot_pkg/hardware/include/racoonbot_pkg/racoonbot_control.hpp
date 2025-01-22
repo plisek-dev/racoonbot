@@ -102,7 +102,7 @@ public:
         }
     }
 
-    void read(int &left_wheel_pos, int &right_wheel_pos, double &left_wheel_vel, double &right_wheel_vel, const double delta_seconds)
+    void read(double &left_wheel_pos, double &right_wheel_pos, double &left_wheel_vel, double &right_wheel_vel, const double delta_seconds)
     {
 
         // left_vel = (2*3.14*wheel_radius_*(last_left_encoder_counter_value_ - left_encoder_counter_)/resolution_)/delta_seconds;
