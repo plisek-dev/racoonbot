@@ -181,6 +181,8 @@ private:
 
     void pulseExCallback(int gpio, int level, uint32_t tick)
     {
+        (void)level;  // Suppress unused parameter warning
+        (void)tick;   // Suppress unused parameter warning
         if (gpio == left_encoder_pin_)
         {
             left_encoder_counter_ += (left_forward_ ? 1 : -1);
@@ -198,7 +200,7 @@ private:
         }
     }
 
-    void pulseCallback(int gpio, int level, uint32_t tick, void *user_data)
+    static void pulseCallback(int gpio, int level, uint32_t tick, void *user_data)
     {
         // Cast the user_data back to the instance of the RacoonBotControl class
         auto *instance = static_cast<RacoonBotControl *>(user_data);
