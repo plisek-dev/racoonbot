@@ -22,12 +22,12 @@ public:
         resolution_(0), 
         wheel_radius_(0.0325), 
         wheel_span_(0.2), 
+        max_vel_rpm_(48),  // Reordered to match class declaration
+        max_pwm_(255),
         left_encoder_counter_(0), 
         right_encoder_counter_(0),
         last_right_encoder_counter_value_(0),
         last_left_encoder_counter_value_(0),
-        max_vel_rpm_(48),
-        max_pwm_(255),
         left_forward_(true),
         right_forward_(true)
     {
@@ -61,9 +61,9 @@ public:
 
         gpioSetPullUpDown(left_encoder_pin_, PI_PUD_UP);
         gpioSetPullUpDown(right_encoder_pin_, PI_PUD_UP);
-
-        gpioSetAlertFuncEx(left_encoder_pin_, pulseEx_(left_encoder_pin_), this);
-        gpioSetAlertFuncEx(right_encoder_pin_, pulseEx_(right_encoder_pin_), this);
+        
+        gpioSetAlertFuncEx(left_encoder_pin_, pulseCallback, this);
+        gpioSetAlertFuncEx(right_encoder_pin_, pulseCallback, this);
     }
 
     void deactivate()
@@ -153,20 +153,23 @@ private:
             {
                 gpioWrite(in1_pin, 1);
                 gpioWrite(in2_pin, 0);
-                RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "%s going forward", source);
+                RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "%s going forward", source.c_str());
+
             }
             else
             {
                 gpioWrite(in1_pin, 0);
                 gpioWrite(in2_pin, 1);
-                RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "%s going backward", source);
+                RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "%s going backward", source.c_str());
+
             }
         }
         else
         {
             gpioWrite(in1_pin, 0);
             gpioWrite(in2_pin, 0);
-            RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "%s stopped", source);
+            RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "%s is stopped", source.c_str());
+
         }
         gpioPWM(pwm_pin, pwm); // PWM duty cycle range is 0-255
     }
@@ -176,36 +179,36 @@ private:
         return std::abs(static_cast<int>(rads * (max_pwm_/(max_vel_rpm_ * 2 * 3.14 / 60))));
     }
 
-    void pulseEx_(const int encoder_pin)
+    void pulseExCallback(int gpio, int level, uint32_t tick)
     {
-        if(encoder_pin == left_encoder_pin_)
+        if (gpio == left_encoder_pin_)
         {
-            if(left_forward_== true)
-            {
-                left_encoder_counter_++;
-            }
-            else
-            {
-                left_encoder_counter_--;
-            }
-
+            left_encoder_counter_ += (left_forward_ ? 1 : -1);
         }
-        else if(encoder_pin == right_encoder_pin_)
+        else if (gpio == right_encoder_pin_)
         {
-            if(right_forward_== true)
-            {
-                right_encoder_counter_++;
-            }
-            else
-            {
-                right_encoder_counter_--;
-            }
+            right_encoder_counter_ += (right_forward_ ? 1 : -1);
         }
         else
         {
-            RCLCPP_INFO(rclcpp::get_logger("RacoonBotSystemHardware"), "Wrong encoder pin number!");
+            RCLCPP_WARN_ONCE(
+                rclcpp::get_logger("RacoonBotSystemHardware"),
+                "Invalid encoder pin number: %d", gpio
+            );
         }
     }
+
+    void pulseCallback(int gpio, int level, uint32_t tick, void *user_data)
+    {
+        // Cast the user_data back to the instance of the class
+        auto *instance = static_cast<MyClass *>(user_data);
+        if (instance)
+        {
+            // Forward the call to the instance's member function
+            instance->pulseExCallback(gpio, level, tick);
+        }
+    }
+
 };
 
 #endif
