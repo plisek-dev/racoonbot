@@ -1,1 +1,0 @@
-/home/pawel/Workspaces/racoonbot/build/racoonbot_pkg/ament_cmake_core/racoonbot_pkgConfig-version.cmake
