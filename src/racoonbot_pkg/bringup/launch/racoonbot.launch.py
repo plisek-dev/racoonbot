@@ -114,7 +114,6 @@ def generate_launch_description():
         event_handler=OnProcessExit(
             target_action=joint_state_broadcaster_spawner,
             on_exit=[rviz_node],
-            condition=IfCondition(gui),
         )
     )
 
